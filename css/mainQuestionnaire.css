@@ -4,3 +4,102 @@ body {
   
     
 }
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+
+    display: flex;
+flex-direction: column;
+}
+
+.content {
+    max-width:564px;
+    margin:0px auto;
+  flex: 1 1 auto;
+
+
+}
+
+.one-month {
+    background: #0B1F3512;
+  width: 270px;
+height: 48px;
+padding: 11px 69.81000518798828px 12px 70.0199966430664px;
+border-radius: 8px;
+
+
+}
+
+.text-month {
+    font-family: Roboto;
+font-size: 15px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: #0B1F35;
+
+}
+
+.mobile-input {
+    width: 564px;
+height: 56px;
+padding:26.5px 35px 11.5px 12px;
+border-radius:4px 4px 0px 0px;
+border:0px 0px 1px 0px;
+
+background: linear-gradient(0deg, rgba(11, 31, 53, 0.07), rgba(11, 31, 53, 0.07)),
+linear-gradient(0deg, rgba(13, 13, 13, 0.3), rgba(13, 13, 13, 0.3));
+
+}
+
+.email-input{
+    width: 564px;
+height: 56px;
+padding: 26.5px 35px 11.5px 12px;
+border-radius: 4px 4px 0px 0px;
+border: 0px 0px 1px 0px;
+
+background: linear-gradient(0deg, rgba(11, 31, 53, 0.07), rgba(11, 31, 53, 0.07)),
+linear-gradient(0deg, rgba(13, 13, 13, 0.3), rgba(13, 13, 13, 0.3));
+
+
+}
+
+
+.one-year {
+width: 270px;
+height: 48px;
+left: 294px;
+padding: 11px 65.94999694824219px 12px 66.16000366210938px;
+border-radius: 8px;
+
+background: #004077;
+
+}
+.text-year {
+ 
+    font-family: Roboto;
+font-size: 15px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+
+
+}
+
+.footer-content {
+max-width:564px;
+margin:0px auto;
+background: #F5F7F9;
+font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+}
