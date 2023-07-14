@@ -5,12 +5,29 @@ body {
     
 }
 
+
 .wrapper {
     min-height: 100%;
     overflow: hidden;
 
     display: flex;
 flex-direction: column;
+}
+
+.steps {
+    display: flex;
+}
+
+.first-step{
+    flex:0 1 33%;
+}
+
+.second-step{
+    flex:0 1 33%;
+}
+
+.tree-step {
+    flex:0 1 33%;
 }
 
 .content {
@@ -22,6 +39,9 @@ flex-direction: column;
 }
 
 .one-month {
+    margin: 15px;
+    flex:0 1 50%;
+
     background: #0B1F3512;
   width: 270px;
 height: 48px;
@@ -33,7 +53,7 @@ border-radius: 8px;
 
 .text-month {
     font-family: Roboto;
-font-size: 15px;
+font-size: 13px;
 font-weight: 500;
 line-height: 20px;
 letter-spacing: 0em;
@@ -43,32 +63,42 @@ color: #0B1F35;
 }
 
 .mobile-input {
+
+    margin:15px;
     width: 564px;
 height: 56px;
-padding:26.5px 35px 11.5px 12px;
+
 border-radius:4px 4px 0px 0px;
 border:0px 0px 1px 0px;
 
 background: linear-gradient(0deg, rgba(11, 31, 53, 0.07), rgba(11, 31, 53, 0.07)),
 linear-gradient(0deg, rgba(13, 13, 13, 0.3), rgba(13, 13, 13, 0.3));
-
+border-bottom: 1px solid #0D0D0D4D 30%;
 }
 
 .email-input{
+
+    margin:15px;
     width: 564px;
 height: 56px;
-padding: 26.5px 35px 11.5px 12px;
+
 border-radius: 4px 4px 0px 0px;
 border: 0px 0px 1px 0px;
 
 background: linear-gradient(0deg, rgba(11, 31, 53, 0.07), rgba(11, 31, 53, 0.07)),
 linear-gradient(0deg, rgba(13, 13, 13, 0.3), rgba(13, 13, 13, 0.3));
-
+border-bottom: 1px solid #0D0D0D4D 30%;
 
 }
 
+.buttons {
+    display: flex;
+
+}
 
 .one-year {
+    margin: 15px;
+    flex:0 1 50%;
 width: 270px;
 height: 48px;
 left: 294px;
@@ -81,7 +111,7 @@ background: #004077;
 .text-year {
  
     font-family: Roboto;
-font-size: 15px;
+font-size: 13px;
 font-weight: 500;
 line-height: 20px;
 letter-spacing: 0em;
