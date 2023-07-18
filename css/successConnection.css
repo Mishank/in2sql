@@ -30,7 +30,7 @@ h1 {
    text-align: center;
 }
 .email {
-    font-family: Roboto;
+font-family: Roboto;
 font-size: 15px;
 font-weight: 700;
 line-height: 24px;
@@ -47,7 +47,7 @@ margin-bottom: 40px;
 
 }
 .main-footer {
-    width: 564px;
+width: 564px;
 height: 56px;
 top: 401px;
 left: 9px;
