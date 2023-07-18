@@ -96,3 +96,132 @@ padding: 0px 31.04998779296875px 1px 0px;
 .main-footer {
     max-width:1920px;
 }
+
+.vertical_title {
+    width: 214.6699981689453px;
+    height: 33px;
+    top: 47px;
+    left: 384px;
+    
+
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.read_more {
+   
+    width: 198px;
+height: 24px;
+
+font-family: Roboto;
+font-size: 15px;
+font-weight: 500;
+line-height: 24px;
+
+
+text-align: left;
+
+color: #0D0D0DB2;
+margin:150px 0px 0px 1175px;
+
+}
+.read_more {
+    width: 1140px;
+height: 325px;
+top: 1898px;
+left: 390px;
+
+}
+
+.title {
+
+    width: 452px;
+height: 34px;
+top: 1.2001953125px;
+padding: 0px 0px 1px 0px;
+border: 0px 0px 1px 0px;
+
+
+}
+
+.what_row {
+    flex-direction: auto;
+    display: flex;
+}
+
+.what {
+    width: 1140px;
+height: 325px;
+
+
+}
+
+.about_sql {
+    width: 731.1699829101562px;
+height: 17px;
+top: 54px;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+.one_month {
+    width: 230px;
+    height: 20px;
+    top: 33.81005859375px;
+    
+
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.price {
+    width: 21.790000915527344px;
+height: 20px;
+top: 34px;
+
+font-family: Roboto;
+font-size: 14px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.button_free {
+    width: Hug (192.98px);
+height: Hug (32px);
+top: 208px;
+padding: 200px 0 0px 0px;
+border-radius: 6px;
+border: 1px;
+gap: 6px;
+
+}
+
+.text {
+
+
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+
+}
