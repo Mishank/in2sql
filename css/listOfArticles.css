@@ -18,8 +18,14 @@ body {
 flex-direction: column;
 
 }
+.main-nav {
+    width: 1920px;
+   
+    
+}
 .site-navigation {
     list-style-type: none;
+  
   
 }
 li {
@@ -40,7 +46,7 @@ font-size: 14px;
 font-weight: 600;
 line-height: 16px;
 letter-spacing: 0em;
-text-align: center;
+
 color: #000000;
 text-decoration: none;
 
@@ -61,43 +67,66 @@ text-align: center;
 color: #000000;
 margin: 50px;
 text-decoration: none;
+
 }
 .site-navigation-button-free {
+    width: 192.98px;
+    height: 32px;
+
+    border-radius: 6px;
+    border: 1px;
+    gap: 6px;
+  
+
+   
+}
+.button-free-text {
+    width: 200px;
+    height: 16px;
+    padding-bottom: 24px;
     font-family: Roboto;
 font-size: 14px;
 font-weight: 600;
 line-height: 16px;
 letter-spacing: 0em;
 text-align: center;
-
-    width: Hug (192.98px);
-    height: Hug (32px);
-    padding: 8px 18.979995727539062px 8px 13px;
-    border-radius: 6px;
-    border: 1px;
-    gap: 6px;
-    color: #B6BCC3;
-margin: 930px;
-    
+color: #000000;
+background-color:#FFFFFF;
+border: 1px solid #B6BCC3;
+padding-top: 10px;
+border-radius: 6px;
+margin-right: 10px;
+margin-left: 640px;
 }
 
 .site-navigation-button-year{
-    width: Hug (206.91px);
-height: Hug (32px);
-padding: 6px 16.910003662109375px 6px 17px;
-border-radius: 6px;
 
-font-family: Roboto;
+    width: 192.98px;
+    height: 32px;
+
+    border-radius: 6px;
+    border: 1px;
+    gap: 6px;
+  
+}
+
+.button-year-text{
+    width: 200px;
+    height: 16px;
+    padding-bottom: 24px;
+    font-family: Roboto;
 font-size: 14px;
-font-weight: 500;
-line-height: 20px;
+font-weight: 600;
+line-height: 16px;
 letter-spacing: 0em;
 text-align: center;
-background: #004077;
+color: #FFFFFF;;
+background-color: #004077;
+border: 1px solid #B6BCC3;
 
-color: #FFFFFF;
 
-margin:1050px 1050px 0 15px;
+padding-top: 10px;
+border-radius: 6px;
 
 }
 
@@ -126,11 +155,11 @@ margin:1050px 1050px 0 15px;
 
 .vertical_column {
     width: 368px;
-height: 244px;
-top: 138px;
-left: 384px;
-padding: 32px;
-border-radius: 8px;
+    height: 244px;
+ 
+    padding: 32px;
+    border-radius: 8px;
+    
 
     margin-right: 50px;
     background: linear-gradient(0deg, rgba(0, 64, 119, 0.8) 0%, rgba(0, 64, 119, 0) 125.2%),
@@ -356,4 +385,102 @@ text-align: left;
 color: #0E0E0E;
 
 text-decoration:underline ;
+}
+
+
+
+.main-footer{
+    max-width: 1920px;
+    background-color: #000000;
+
+    height: 296px;
+    top: 2284px;
+    padding: 0px 396px 2px 384px;
+    
+}
+.footer-row {
+ display: flex;
+}
+.footer_icon {
+font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+padding-top: 10px;
+color: #FFFFFF;
+
+}
+
+.footer-telephone-list {
+padding-left: 150px;
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+display:grid;
+
+
+}
+.separator {
+    width: 1140px;
+height: 1px;
+top: 93px;
+color: #464649;
+
+}
+
+.footer-telegram {
+   padding-left: 500px;
+
+}
+
+.footer-second {
+    width: 1140px;
+height: 122px;
+top: 97px;
+left: 8px;
+padding: 32px 0px 32px 0px;
+
+}
+
+.footer-nav {
+    width: 740px;
+height: 58px;
+top: 32px;
+padding: 0px 416px 37px 0px;
+
+}
+
+.footer-nav-list {
+   display: inline;
+   
+}
+.footer-nav-list-item {
+    text-decoration: none;
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+padding: 10px;
+
+border-bottom: 1px solid #FFFFFF66;
+
+}
+.footer-date-text {
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+margin: 0 auto;
 }
