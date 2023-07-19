@@ -18,12 +18,88 @@ body {
 flex-direction: column;
 
 }
+.site-navigation {
+    list-style-type: none;
+  
+}
+li {
+    display: inline;
+}
+
 
 .vertical_row{
     display: flex;
 }
+.contact_nav {
+    width: 66px;
+height: 16px;
+top: 40px;
 
+font-family: Roboto;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+color: #000000;
+text-decoration: none;
 
+}
+
+.blog_nav {
+    width: 31px;
+height: 16px;
+top: 40px;
+left: 109px;
+
+font-family: Roboto;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+color: #000000;
+margin: 50px;
+text-decoration: none;
+}
+.site-navigation-button-free {
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+
+    width: Hug (192.98px);
+    height: Hug (32px);
+    padding: 8px 18.979995727539062px 8px 13px;
+    border-radius: 6px;
+    border: 1px;
+    gap: 6px;
+    color: #B6BCC3;
+margin: 930px;
+    
+}
+
+.site-navigation-button-year{
+    width: Hug (206.91px);
+height: Hug (32px);
+padding: 6px 16.910003662109375px 6px 17px;
+border-radius: 6px;
+
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+background: #004077;
+
+color: #FFFFFF;
+
+margin:1050px 1050px 0 15px;
+
+}
 
 
 
@@ -116,8 +192,8 @@ padding: 0px 31.04998779296875px 1px 0px;
 
 .read_more {
    
-    width: 198px;
-height: 24px;
+    width: 1140px;
+    height: 325px;
 
 font-family: Roboto;
 font-size: 15px;
@@ -131,12 +207,9 @@ color: #0D0D0DB2;
 margin:150px 0px 0px 1175px;
 
 }
-.read_more {
-    width: 1140px;
-height: 325px;
-top: 1898px;
-left: 390px;
 
+.read_more_text{
+    text-decoration: none;
 }
 
 .title {
@@ -155,7 +228,9 @@ border: 0px 0px 1px 0px;
     display: flex;
 }
 
-.what {
+.what{
+    
+ margin: auto;
     width: 1140px;
 height: 325px;
 
@@ -172,6 +247,7 @@ font-weight: 400;
 line-height: 22px;
 letter-spacing: 0em;
 text-align: left;
+color: #0E0E0E;
 
 
 }
@@ -192,8 +268,9 @@ text-align: left;
 
 .price {
     width: 21.790000915527344px;
-height: 20px;
-top: 34px;
+    height: 20px;
+    top: 34px;
+    
 
 font-family: Roboto;
 font-size: 14px;
@@ -202,15 +279,21 @@ line-height: 25px;
 letter-spacing: 0em;
 text-align: left;
 
+color: #0E0E0E;
+
+
 }
 .button_free {
     width: Hug (192.98px);
-height: Hug (32px);
-top: 208px;
-padding: 200px 0 0px 0px;
-border-radius: 6px;
-border: 1px;
-gap: 6px;
+    height: Hug (32px);
+    top: 208px;
+    padding: 8px 18.979995727539062px 8px 13px;
+    border-radius: 6px;
+    border: 1px;
+    gap: 6px;
+    color: #B6BCC3;
+
+    
 
 }
 
@@ -224,4 +307,53 @@ line-height: 16px;
 letter-spacing: 0em;
 text-align: center;
 
+
+}
+
+.one_month_text {
+    width: 197.14999389648438px;
+height: 17px;
+top: 63.18994140625px;
+
+font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+color: #0D0D0DB2;
+
+}
+
+.action_time {
+    width: 173px;
+height: 17px;
+top: 3.420166015625px;
+
+font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #0D0D0D99;
+
+
+}
+
+.title_sql {
+    width: 567.760009765625px;
+height: 133px;
+
+font-family: Roboto;
+font-size: 30px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+color: #0E0E0E;
+
+text-decoration:underline ;
 }
