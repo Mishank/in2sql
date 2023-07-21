@@ -1,6 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Serif', serif;
+    margin:0px auto;
+    max-width:1920px;
   
 }
 .wrapper {
@@ -30,7 +32,7 @@ li {
 .contact_nav {
 width: 66px;
 height: 16px;
-top: 40px;
+margin-top: 40px;
 font-family: Roboto;
 font-size: 14px;
 font-weight: 600;
@@ -43,8 +45,8 @@ text-decoration: none;
 .blog_nav {
 width: 31px;
 height: 16px;
-top: 40px;
-left: 109px;
+margin-top: 40px;
+margin-left: 109px;
 font-family: Roboto;
 font-size: 14px;
 font-weight: 600;
@@ -78,7 +80,7 @@ border: 1px solid #B6BCC3;
 padding-top: 10px;
 border-radius: 6px;
 margin-right: 10px;
-margin-left: 640px;
+margin-left: 420px;
 }
 
 .site-navigation-button-year{
@@ -108,11 +110,302 @@ padding-top: 10px;
 border-radius: 6px;
 
 }
+
 .survey {
-    width: 1920px;
-    height: 592px;
- 
-    
+  
+width: 1920px;
+height: 600px;
 background: linear-gradient(180deg, #004077 0%, rgba(0, 0, 0, 0) 100%);
 
+}
+.content {
+width: 1140px;
+
+}
+
+.hero{
+display: flex;
+
+
+
+}
+
+.hero_main_header_text {
+width: 510px;
+height: 96px;
+font-family: Roboto;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+padding-top: 100px;
+}
+
+.hero_main_text {
+width: 374px;
+height: 25px;
+
+font-family: Roboto;
+font-size: 17px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+color: #FFFFFF;
+
+}
+
+.one_year_free{
+width: 226.02px;
+height: 48px;
+margin-top:70px;
+border-radius: 8px;
+background-color: #004077;
+
+}
+
+.one_year_free_text {
+
+
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+
+
+
+color: #FFFFFF;
+
+}
+
+.questionnaire{
+margin-top: 50px;
+max-width: 1178px;
+max-height: 869px;
+margin: 0 auto;
+padding-left:250px ;
+padding-right:100px ;
+box-shadow: 0px 2px 8px 0px #00000014;
+
+box-shadow: 0px 8px 16px 0px #00000014;
+background-color: #FFFFFF;
+
+
+}
+.input_list_item {
+
+    width: 564px;
+height: 56px;
+
+margin-bottom: 50px;
+    display: grid;
+}
+.questionnaire_input {
+    max-width: 564px;
+max-height: 532.3800048828125px;
+margin-top: 48px;
+
+}
+.faq {
+    width: 564px;
+height: 56px;
+
+border-radius: 4px 4px 0px 0px;
+border: 0px 0px 1px 0px;
+background: #F5F7F9;
+border-top: 1px solid #0D0D0D4D;
+}
+.telephone {
+    width: 564px;
+height: 56px;
+
+border-radius: 4px 4px 0px 0px;
+border: 0px 0px 1px 0px;
+background: #F5F7F9;
+border-top: 1px solid #0D0D0D4D;
+}
+.organization {
+    width: 564px;
+    height: 56px;
+    
+    border-radius: 4px 4px 0px 0px;
+    border: 0px 0px 1px 0px;
+    background: #F5F7F9;
+    border-top: 1px solid #0D0D0D4D;
+}
+.mail {
+    width: 564px;
+    height: 56px;
+    
+    border-radius: 4px 4px 0px 0px;
+    border: 0px 0px 1px 0px;
+    background: #F5F7F9;
+    border-top: 1px solid #0D0D0D4D;
+}
+.jobtitle {
+    width: 564px;
+    height: 56px;
+    
+    border-radius: 4px 4px 0px 0px;
+    border: 0px 0px 1px 0px;
+ background: #F5F7F9;
+    border-top: 1px solid #0D0D0D4D;
+}
+.button_one_year {
+    width: 270px;
+height: 48px;
+
+
+border-radius: 8px;
+margin: 0 auto;
+padding-right: 160px;
+
+}
+
+.button_one_year_text{
+  
+    width: 270px;
+    height: 48px;
+    
+    font-family: Roboto;
+font-size: 15px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+background-color: #004077;
+color: #FFFFFF;
+text-align: center;
+border-radius: 10px;
+}
+.questionnaire_footer {
+
+    background-color: #F5F7F9;
+
+ 
+    border-radius: 4px;
+    
+}
+.questionnaire_footer_image {
+
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+margin-top: 50px;
+}
+
+.contacts_text {
+    font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 50px;
+padding-top: 20px;
+text-align: center;
+
+}
+
+.main-footer{
+    margin-top: 100px;
+    max-width: 1920px;
+    background-color: #000000;
+    height: 296px;
+    top: 2284px;
+    padding: 0px 396px 2px 384px;
+    
+}
+
+.footer-row {
+ display: flex;
+}
+
+.footer_icon {
+font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+padding-top: 20px;
+color: #FFFFFF;
+
+}
+
+.footer-telephone-list {
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+display:grid;
+padding-top: 20px;
+padding-left: 10px;
+}
+.separator {
+width: 1140px;
+height: 1px;
+top: 93px;
+color: #464649;
+
+}
+
+.footer-telegram {
+padding-left: 400px;
+
+}
+
+.footer-second {
+width: 1140px;
+height: 122px;
+top: 97px;
+left: 8px;
+padding: 32px 0px 32px 0px;
+
+}
+
+.footer-nav {
+width: 740px;
+height: 58px;
+top: 32px;
+padding: 0px 416px 37px 0px;
+
+}
+
+.footer-nav-list {
+   display: inline;
+   
+}
+.footer-nav-list-item {
+text-decoration: none;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+padding: 10px;
+
+border-bottom: 1px solid #FFFFFF66;
+
+}
+.footer-date-text {
+font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+margin: 0 auto;
 }

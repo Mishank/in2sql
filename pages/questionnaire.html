@@ -11,7 +11,7 @@
   <body class="page">
     <div class="wrapper">
       <div class="survey">
-      <div class="content">
+        <div class="content">
           <nav class="main-nav">
             <ul class="site-navigation">
                 <li class="site-navigation-item">
@@ -31,55 +31,91 @@
         </nav>  
   
 
-    <main class="main-content">
-      <section class="hero">
-        <h1>Excel перестал быть просто таблицей</h1>
-        <p> <br>Инстреумент анализа данных </br>
-         <br>Управление справочниками</br>
-         <br>Сбор регулярной отчетности</br>
-         <br>CPM/EPM приложение</br>
-        </p>
-        <button><p>Получить 1 год бесплатно</p></button>
-        <img src="img/main.svg" width=" 475.34px" height="521.9px" alt="Разноцветные квадраты">
+      <div class="hero">
+        <div class="hero_main_header">
+        <h1 class="hero_main_header_text">Заполни анкету и получи 1 год лицензии</h1>
+        <p class="hero_main_text"> Нам нужны эти данные для анализа и улучшения нашего продукта.</p>
+      
+        <button class="one_year_free"><p class="one_year_free_text">Получить 1 год бесплатно</p></button>
       </div>
-<div class="questionnaire">
-    <p><input name="FAQ" type="text" value=""></p>
-    <p><input name="telephone" type="number" value="+7()"></p>
-    <p><input name="mail" type="text" value=""></p>
-    <p><input name="Organization" type="text" value=""></p>
-    <p><input name="Jobtitle" type="text" value=""></p>
-    <p></p><button>Получить 1 год бесплатно</button></p>
-
+      
+        <img src="img/main.svg" width=" 475.34px" height="521.9px" alt="Разноцветные квадраты" class="insql_icon">
+    
+  </div>
 </div>
-<footer>
-    <figure>
+</div>
+<div class="questionnaire">
+  <div class="questionnaire_input">
+    <ul class="input_list">
+    <li class="input_list_item"><input name="FAQ" type="text" value="" class="faq"></li>
+    <li class="input_list_item"><input name="telephone" type="number" value="+7()"class="telephone"></li>
+    <li class="input_list_item"><input name="mail" type="text" value=""class="mail"></li>
+    <li class="input_list_item"><input name="organization" type="text" value=""class="organization"></li>
+    <li class="input_list_item"><input name="jobtitle" type="text" value=""class="jobtitle"></li>
+  </ul>
+  </div>
+  <div class="button_one_year">
+    <button href="#" class="button_one_year_text">Получить 1 год бесплатно</button>
+  </div>
+ 
+
+
+<footer class="questionnaire_footer">
+  <div class="questionnaire_footer_image"> 
+  <figure>
     <figcaption>
-    <img src="pages/img/icon_category-guard_xl_black_v2.svg" width="24px" height="24px" alt="Защита">
+    <img src="../pages/img/iconGuard.svg" width="24px" height="24px" alt="Защита">
     Мы гарантируем безопасность и сохранность ваших данных
 </figcaption>
 </figure>
-<p>Оставляя свои контактные данные, вы разрешаете нам обратиться к вам за обратной связью по нашему продукту.</p>
-</footer>
 </div>
+</footer>
+
+<p class="contacts_text">Оставляя свои контактные данные, вы разрешаете нам обратиться к вам за обратной связью по нашему продукту.</p>
+
+</div>
+</div>
+</div>
+
 <footer class="main-footer">
-    <p class="telegram-mini">
-      <img src="img/telegram-mini.png" width="15px" height="15px" alt="телеграм">
-      Москва
-    </p>
-    <ul class="telephone">
-      <li>+7 495 000 00 00 — Бизнесу и ИП</li>
-      <li>+7 495 111 11 11 — Частным клиентам</li>
-      <img src="img/icon_telegram.png" width="24px" height="24px" alt="телеграм">
-    </ul>
-    <ul class="nav">
-<li>Блог</li>
-<li>Контакты</li>
-<li>Получить годовую лицензию</li>
-      </ul>
-
-      <p>© 2021-2023.ООО «ЧТО ТО», официальный сайт in2sql. Передавая нам свои контактные данные, мы гарантируем безопасность их хранения.</p>
-
-</footer>
+  <div class="container">
+  <div class="footer-row">
+      <div class="footer_icon">
+  <figure>
+      <figcaption>
+    <img src="../pages/img/telegram-mini.svg" width="15px" height="15px" alt="телеграм">
+    Москва 
+  </figcaption>
+  </figure>
+ 
 </div>
-    </body>
-      </body>
+<div class="footer-telephone">
+  <ul class="footer-telephone-list">
+    <li>+7 495 000 00 00 — Бизнесу и ИП</li>
+    <li>+7 495 111 11 11 — Частным клиентам</li>
+    
+   
+  </ul>
+  <div class="footer-telegram">
+     <a href="#"><img src="../pages/img/icon_telegram.svg" width="24px" height="24px" alt="телеграм"></a>
+  </div>
+</div>
+</div>
+<img src="../pages/img/Separator.svg" width=" 1140px"
+height="1px" alt="" class="separator">
+<div class="footer-second">
+<div class = "footer-nav">
+  <ul class="footer-nav-list">
+<a href=""><li class="footer-nav-list-item">Блог</li></a>
+<a href=""><li class="footer-nav-list-item">Контакты</li></a>
+<a href=""><li class="footer-nav-list-item">Получить годовую лицензию</li></a>
+    </ul>
+    </div>
+<div class="footer-date">
+    <p class="footer-date-text">© 2021-2023.ООО «ЧТО ТО», официальный сайт in2sql. Передавая нам свои контактные данные, мы гарантируем безопасность их хранения.</p>
+  </div>
+</div>
+</footer>
+
+
+  </body>

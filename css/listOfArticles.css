@@ -333,8 +333,6 @@ text-align: left;
     height: 117.97000122070312px;
     left: 265px;
    
-    
-    
 padding-top: 6px;
 font-family: Roboto;
 font-size: 14px;
@@ -365,53 +363,43 @@ color: #0E0E0E;
 }
 
 .action_time {
-    width: 173px;
+ width: 173px;
 height: 17px;
 top: 3.420166015625px;
-
 font-family: Roboto;
 font-size: 15px;
 font-weight: 400;
 line-height: 22px;
 letter-spacing: 0em;
 text-align: left;
-
 color: #0D0D0D99;
-
 }
 
 .button_free {
-    
-
-    top: 208px;
-  
-    border-radius: 6px;
-    border: 1px;
-    gap: 6px;
-    background-color: #FFFFFF;
+top: 208px; 
+border-radius: 6px;
+border: 1px;
+gap: 6px;
+background-color: #FFFFFF;
 padding: 0px 15px 0px 15px ;
-    border: 1px solid #B6BCC3
+border: 1px solid #B6BCC3
 }
 
-.button_free_text {
-
-    
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 0px;
-    letter-spacing: 0em;
-    text-align: center;
+.button_free_text {  
+font-family: Roboto;
+font-size: 14px;
+font-weight: 600;
+line-height: 0px;
+letter-spacing: 0em;
+text-align: center;
  
-    color: #000000;
+color: #000000;
 
 }
 .one_month_text_days {
-    width: 230px;
+width: 230px;
 height: 20px;
-
-
-    font-family: Roboto;
+font-family: Roboto;
 font-size: 18px;
 font-weight: 600;
 line-height: 25px;
@@ -422,26 +410,23 @@ color: #0E0E0E;
 }
 
 .one_month_text {
-    width: 197.14999389648438px;
+width: 197.14999389648438px;
 height: 17px;
 top: 63.18994140625px;
-
 font-family: Roboto;
 font-size: 15px;
 font-weight: 400;
 line-height: 22px;
 letter-spacing: 0em;
 text-align: left;
-
 color: #0D0D0DB2;
 
 }
 
 .action_time {
-    width: 173px;
+width: 173px;
 height: 17px;
 top: 3.420166015625px;
-
 font-family: Roboto;
 font-size: 15px;
 font-weight: 400;
@@ -454,19 +439,17 @@ color: #0D0D0D99;
 }
 
 .title_sql {
-    width: 567.760009765625px;
+width: 567.760009765625px;
 height: 133px;
-
 font-family: Roboto;
 font-size: 30px;
 font-weight: 600;
 line-height: 36px;
 letter-spacing: 0em;
 text-align: left;
-
 color: #0E0E0E;
-
 text-decoration:underline ;
+
 }
 
 
@@ -474,15 +457,16 @@ text-decoration:underline ;
 .main-footer{
     max-width: 1920px;
     background-color: #000000;
-
     height: 296px;
     top: 2284px;
     padding: 0px 396px 2px 384px;
     
 }
+
 .footer-row {
  display: flex;
 }
+
 .footer_icon {
 font-family: Roboto;
 font-size: 13px;
@@ -496,8 +480,7 @@ color: #FFFFFF;
 }
 
 .footer-telephone-list {
-
-    font-family: Roboto;
+font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
 line-height: 20px;
@@ -517,12 +500,12 @@ color: #464649;
 }
 
 .footer-telegram {
-   padding-left: 400px;
+padding-left: 400px;
 
 }
 
 .footer-second {
-    width: 1140px;
+width: 1140px;
 height: 122px;
 top: 97px;
 left: 8px;
@@ -531,7 +514,7 @@ padding: 32px 0px 32px 0px;
 }
 
 .footer-nav {
-    width: 740px;
+width: 740px;
 height: 58px;
 top: 32px;
 padding: 0px 416px 37px 0px;
@@ -543,8 +526,8 @@ padding: 0px 416px 37px 0px;
    
 }
 .footer-nav-list-item {
-    text-decoration: none;
-    font-family: Roboto;
+text-decoration: none;
+font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
 line-height: 20px;
@@ -557,7 +540,7 @@ border-bottom: 1px solid #FFFFFF66;
 
 }
 .footer-date-text {
-    font-family: Roboto;
+font-family: Roboto;
 font-size: 12px;
 font-weight: 400;
 line-height: 16px;
