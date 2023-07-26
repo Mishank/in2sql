@@ -140,8 +140,9 @@ a {
 .content-main {
     display: flex;
     width: 1240px;
-height: 764px;
+
 margin: 0 auto;
+margin-bottom: 200px;
 
 }
 .content-main-text {
@@ -173,7 +174,7 @@ margin: 0 auto;
     
     box-shadow: 0px 8px 16px 0px #00000014;
     background-color: #FFFFFF;
-    
+    margin-left: 50px;
     
     }
     .input_list_item {
@@ -187,8 +188,8 @@ margin: 0 auto;
     .questionnaire_input {
         max-width: 564px;
     max-height: 532.3800048828125px;
-    margin-top: 48px;
-    
+
+  
     }
     .faq {
         width: 564px;
@@ -199,24 +200,19 @@ margin: 0 auto;
     background: #F5F7F9;
     border-top: 1px solid #0D0D0D4D;
     }
-    .telephone {
+    .appeal {
         width: 564px;
-    height: 56px;
-    
-    border-radius: 4px 4px 0px 0px;
-    border: 0px 0px 1px 0px;
-    background: #F5F7F9;
-    border-top: 1px solid #0D0D0D4D;
-    }
-    .organization {
-        width: 564px;
-        height: 56px;
-        
+        height: 174px;
+   
+     
         border-radius: 4px 4px 0px 0px;
         border: 0px 0px 1px 0px;
-        background: #F5F7F9;
-        border-top: 1px solid #0D0D0D4D;
+        
+    background: #F5F7F9;
+    border-top: 1px solid #0D0D0D4D;
+   
     }
+ 
     .mail {
         width: 564px;
         height: 56px;
@@ -226,21 +222,13 @@ margin: 0 auto;
         background: #F5F7F9;
         border-top: 1px solid #0D0D0D4D;
     }
-    .jobtitle {
-        width: 564px;
-        height: 56px;
-        
-        border-radius: 4px 4px 0px 0px;
-        border: 0px 0px 1px 0px;
-     background: #F5F7F9;
-        border-top: 1px solid #0D0D0D4D;
-    }
+ 
     .button_one_year {
         width: 270px;
-    height: 48px;
-    
-    
-    border-radius: 8px;
+        height: 48px;
+   
+        border-radius: 8px;
+        
     margin: 0 auto;
     padding-right: 160px;
     
@@ -261,14 +249,21 @@ margin: 0 auto;
     color: #FFFFFF;
     text-align: center;
     border-radius: 10px;
+    margin-top: 120px;
+    margin-left: 70px;
     }
     .questionnaire_footer {
+        width: 503px;
+height: 56px;
+
+
     
         background-color: #F5F7F9;
     
      
         border-radius: 4px;
-        
+        margin: 0 auto;
+        margin-top: 50px;
     }
     .questionnaire_footer_image {
     
@@ -278,7 +273,7 @@ margin: 0 auto;
         line-height: 20px;
         letter-spacing: 0em;
         text-align: left;
-    margin-top: 50px;
+    margin-top: 150px;
     }
     
     .contacts_text {
@@ -293,3 +288,300 @@ margin: 0 auto;
     text-align: center;
     
     }
+
+    .what{
+        display: flex;
+        width: 1140px;
+     
+     
+     
+     }
+     
+     .what{
+         
+      margin: 0 auto;
+     width: 1140px;
+     height: 325px;
+     padding-bottom: 100px;
+     
+     
+     }
+     
+     .what_row {
+         width: 760px;
+     height: 325.3599853515625px;
+     left: 380px;
+     padding-left: 50px;
+     
+     }
+     .link_title {
+         width: 567.760009765625px;
+     height: 33px;
+     
+         font-family: Roboto;
+     font-size: 15px;
+     font-weight: 600;
+     line-height: 36px;
+     letter-spacing: 0em;
+     text-align: left;
+     
+     color: #0E0E0E;
+     border-bottom: 1px solid #0D0D0D66;
+     
+     
+     }
+     
+     .about_sql {
+         width: 731.1699829101562px;
+     height: 17px;
+     top: 54px;
+     font-family: Roboto;
+     font-size: 15px;
+     font-weight: 400;
+     line-height: 22px;
+     letter-spacing: 0em;
+     text-align: left;
+     
+     
+     
+     }
+     .action {
+         display: flex;
+     }
+     .one_month {
+        
+         width: 230px;
+         height: 117.97000122070312px;
+     
+         
+     
+         font-family: Roboto;
+         font-size: 18px;
+         font-weight: 600;
+         line-height: 25px;
+         letter-spacing: 0em;
+         text-align: left;
+         
+     }
+     
+     .price {
+         width: 230px;
+         height: 117.97000122070312px;
+         left: 265px;
+        
+     padding-top: 6px;
+     font-family: Roboto;
+     font-size: 14px;
+     font-weight: 600;
+     line-height: 25px;
+     letter-spacing: 0em;
+     text-align: left;
+     padding-left: 30px;
+     color: #0E0E0E;
+     
+     
+     }
+     .price_number {
+         width: 21.790000915527344px;
+         height: 20px;
+         top: 34px;
+         
+     
+         font-family: Roboto;
+         font-size: 14px;
+         font-weight: 600;
+         line-height: 25px;
+         letter-spacing: 0em;
+         text-align: left;
+         color: #0E0E0E;
+     
+         
+     }
+     
+     .action_time {
+      width: 173px;
+     height: 17px;
+     top: 3.420166015625px;
+     font-family: Roboto;
+     font-size: 15px;
+     font-weight: 400;
+     line-height: 22px;
+     letter-spacing: 0em;
+     text-align: left;
+     color: #0D0D0D99;
+     }
+     
+     .button_free {
+     top: 208px; 
+     border-radius: 6px;
+     border: 1px;
+     gap: 6px;
+     background-color: #FFFFFF;
+     padding: 0px 15px 0px 15px ;
+     border: 1px solid #B6BCC3
+     }
+     
+     .button_free_text {  
+     font-family: Roboto;
+     font-size: 14px;
+     font-weight: 600;
+     line-height: 0px;
+     letter-spacing: 0em;
+     text-align: center;
+      
+     color: #000000;
+     
+     }
+     .one_month_text_days {
+     width: 230px;
+     height: 20px;
+     font-family: Roboto;
+     font-size: 18px;
+     font-weight: 600;
+     line-height: 25px;
+     letter-spacing: 0em;
+     text-align: left;
+     color: #0E0E0E;
+     
+     }
+     
+     .one_month_text {
+     width: 197.14999389648438px;
+     height: 17px;
+     top: 63.18994140625px;
+     font-family: Roboto;
+     font-size: 15px;
+     font-weight: 400;
+     line-height: 22px;
+     letter-spacing: 0em;
+     text-align: left;
+     color: #0D0D0DB2;
+     
+     }
+     
+     .action_time {
+     width: 173px;
+     height: 17px;
+     top: 3.420166015625px;
+     font-family: Roboto;
+     font-size: 15px;
+     font-weight: 400;
+     line-height: 22px;
+     letter-spacing: 0em;
+     text-align: left;
+     color: #0D0D0D99;
+     
+     
+     }
+     
+     .title_sql {
+     width: 567.760009765625px;
+     height: 133px;
+     font-family: Roboto;
+     font-size: 30px;
+     font-weight: 600;
+     line-height: 36px;
+     letter-spacing: 0em;
+     text-align: left;
+     color: #0E0E0E;
+     text-decoration:underline ;
+     
+     }
+     
+     
+     
+     .main-footer{
+         max-width: 1920px;
+         background-color: #000000;
+         height: 350px;
+         top: 2284px;
+         padding: 0px 396px 2px 384px;
+         
+     }
+     
+     .footer-row {
+      display: flex;
+     }
+     
+     .footer_icon {
+     font-family: Roboto;
+     font-size: 13px;
+     font-weight: 400;
+     line-height: 20px;
+     letter-spacing: 0em;
+     text-align: left;
+     padding-top: 20px;
+     color: #FFFFFF;
+     
+     }
+     
+     .footer-telephone-list {
+     font-family: Roboto;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 20px;
+     letter-spacing: 0em;
+     text-align: left;
+     color: #FFFFFF;
+     display:grid;
+     padding-top: 20px;
+     padding-left: 10px;
+     }
+     .separator {
+     width: 1140px;
+     height: 1px;
+     top: 93px;
+     color: #464649;
+     
+     }
+     
+     .footer-telegram {
+     padding-left: 400px;
+     
+     }
+     
+     .footer-second {
+     width: 1140px;
+     height: 122px;
+     top: 97px;
+     left: 8px;
+     padding: 32px 0px 32px 0px;
+     
+     }
+     
+     .footer-nav {
+     width: 740px;
+     height: 58px;
+     top: 32px;
+     padding: 0px 416px 37px 0px;
+     
+     }
+     
+     .footer-nav-list {
+        display: inline;
+        
+     }
+     .footer-nav-list-item {
+     text-decoration: none;
+     font-family: Roboto;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 20px;
+     letter-spacing: 0em;
+     text-align: left;
+     color: #FFFFFF;
+     padding: 10px;
+     
+     border-bottom: 1px solid #FFFFFF66;
+     
+     }
+     .footer-date-text {
+     font-family: Roboto;
+     font-size: 12px;
+     font-weight: 400;
+     line-height: 16px;
+     letter-spacing: 0em;
+     text-align: left;
+     color: #FFFFFF;
+     margin: 0 auto;
+     }
