@@ -1,7 +1,7 @@
 .gitignore
-.package
-.package-lock
-
+package
+package-lock
+gitignore
 # Logs
 logs
 *.log
