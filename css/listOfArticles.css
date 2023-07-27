@@ -549,3 +549,8 @@ text-align: left;
 color: #FFFFFF;
 margin: 0 auto;
 }
+.vertical_date_link a {
+   
+    text-decoration: none;
+
+}
