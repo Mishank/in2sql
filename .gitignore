@@ -1,7 +1,3 @@
-.gitignore
-package
-package-lock
-
 # Logs
 logs
 *.log
@@ -31,6 +27,8 @@ build/Release
 
 # Dependency directory
 node_modules
+package
+package-lock
 
 # Optional npm cache directory
 .npm
@@ -38,6 +36,5 @@ node_modules
 # Optional REPL history
 .node_repl_history
 
-.gitignore
-package
-package-lock
+
+
