@@ -23,7 +23,7 @@ display: flex;
 flex-direction: column;
 }
 @media (max-width: 12450px) { 
-    
+
 }
 
 .content__container {
@@ -143,8 +143,6 @@ width: 1140px;
 
 .hero{
 display: flex;
-
-
 
 }
 
@@ -293,7 +291,12 @@ border: none;
     
 
 }
-
+.about_first_column-block {
+    margin-right: 30px;
+}
+.block-content-main {
+padding: 32px;
+}
 .about_second_column {
     width: 500px;
     height: 236px;
@@ -349,13 +352,11 @@ color: #0E0E0E;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    padding-top: 40px;
+    padding-top: 36px;
 
 }
 
-.block-content-main-icon {
-    padding-left: 60px;
-}
+
 
 .mainQuestionnaire {
     width: 760px;
