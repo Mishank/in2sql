@@ -25,16 +25,16 @@ flex-direction: column;
 @media (max-width: 12450px) { 
 
 }
+.survey {
+    display: flex;
+}
 
 .content__container {
 width:1140px;
 margin: 0 auto;
 padding: 0px 15px;
 }
-.main-nav {
-    width: 1920px;
-  
-}
+
 
 .site-navigation {
     list-style-type: none;
@@ -129,8 +129,7 @@ border-radius: 6px;
 
 .survey {
   
-width: 1920px;
-height: 592px;
+
 background: #000000;
 
 
