@@ -22,9 +22,7 @@ overflow: hidden;
 display: flex;
 flex-direction: column;
 }
-@media (max-width: 12450px) { 
 
-}
 .survey {
     display: flex;
 }
@@ -49,14 +47,13 @@ li {
 }
 .contact_nav {
 
-
 font-family: Roboto;
 font-size: 14px;
 font-weight: 600;
 line-height: 16px;
 letter-spacing: 0em;
 color: #FFFFFF;
-
+padding-left: 0px;
 text-decoration: none;
 }
 
@@ -274,8 +271,8 @@ border: none;
 
 .about {
 
-  
-    width: 1140px;
+ 
+    
     height: 764px;
 
     margin: 0 auto;
@@ -759,18 +756,21 @@ color: #0D0D0DB2;
  }
  
  
- 
+
  .main-footer{
-     max-width: 1920px;
+  width: 100%;
      background-color: #000000;
-     height: 350px;
-     top: 2284px;
-     padding: 0px 396px 2px 384px;
      
+
+     
+ }
+ .container-main-footer {
+   
  }
  
  .footer-row {
   display: flex;
+margin: 0 ;
  }
  
  .footer_icon {
