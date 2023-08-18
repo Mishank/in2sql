@@ -5,15 +5,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link href="../css/mainPage.css" rel="stylesheet">
+    <link href="../css/mobilePage.css" rel="stylesheet">
     <title>in2sql</title>
   </head>
-  <body class="page">
+  <body>
     <div class="wrapper">
-
       <div class="survey">
-        <div class="content">
-          <nav class="main-nav">
+        <div class="content__container">
+          <div class="main-nav">
             <ul class="site-navigation">
                 <li class="site-navigation-item">
                   <a href="http://127.0.0.1:8080/pages/contact.html" class="contact_nav">Контакты</a>
@@ -30,7 +29,7 @@
                     <button onclick="window.location.href ='http://127.0.0.1:8080/pages/questionnaire.html';" class="button-year-text">Получить 1 год бесплатно</button>
                   </li>
            
-        </nav>  
+                </div>  
   
 
       <div class="hero">
@@ -44,7 +43,7 @@
         <button class="one_year_free"><p class="one_year_free_text">Получить 1 год бесплатно</p></button>
       </div>
       
-        <img src="pages/img/main.svg" width=" 475.34px" height="521.9px" alt="Разноцветные квадраты" class="insql_icon">
+        <img src="../pages/img/main.svg" width=" 475.34px" height="521.9px" alt="Разноцветные квадраты" class="insql_icon">
     
   </div>
 </div>
@@ -70,41 +69,45 @@
 </div>
 </div>
 <div class="about">
-  <h1>Что такое in2sql?</h1>
+  <h1 class="about_heading">Что такое in2sql?</h1>
+<div class="about_container">
   <div class="about_first_column">
-  <div class="about_first_column-block">
+  <div class="about_first_column-block-one">
     <div class="block-content">
       
       <div class="block-content-main">
+      
+
        
 <a href="#" class="block-content-main-title">Plugin для Excel</a>
+
 
 <p class="block-content-main-text">Установщик, который расширяет программный код Excel или web приложений которое интегрируется в Excel</p>
 
 </div>
-<img src="pages/img/first-img-about.svg" width="96px" height="100.25px" alt="" class="block-content-main-icon">
+<img src="../pages/img/first-img-about.svg" width="96px" height="100.25px" alt="" class="block-content-main-icon">
 </div>
 
 </div>
 
 <div class="about_first_column">
-  <div class="about_first_column-block">
+  <div class="about_first_column-block-two">
     <div class="block-content">
       
       <div class="block-content-main">
        
 <a href="#" class="block-content-main-title">Простое совместное пользование</a>
   
-  <p class="block-content-main-text">Упрощение совместной обработки данных для бизнес пользователей data. Финансисты, Маркетинг и Комплаенс будут иметь удобный доступ к данным.</p>
+  <p class="block-content-main-text-two">Упрощение совместной обработки данных для бизнес пользователей data. Финансисты, Маркетинг и Комплаенс будут иметь удобный доступ к данным.</p>
 </div>
-<img src="pages/img/three-img-about.svg" width="96px" height="84.86px" alt="Пазл" class="block-content-main-icon">
+<img src="../pages/img/three-img-about.svg" width="96px" height="84.86px" alt="Пазл" class="block-content-main-icon">
 </div>
 </div>
 </div>
 </div>
 
 <div class="about_second_column">
-  <div class="about_first_column-block">
+  <div class="about_first_column-block-tree">
     <div class="block-content">
       
       <div class="block-content-main">
@@ -113,25 +116,27 @@
  
   <p class="block-content-main-text">Избавим вас от MDM, FDQM, CPM, и ETL процессов.</p>
 </div>
-<img src="pages/img/web_statistics_page_icon.svg" width="96px" height="96px" alt="Статистика" class="block-content-main-icon">
+<img src="../pages/img/web_statistics_page_icon.svg" width="96px" height="96px" alt="Статистика" class="block-content-main-icon">
 </div>
 </div>
 
-<div class="about_first_column-block">
+<div class="about_first_column-block-four">
   <div class="block-content">
     
     <div class="block-content-main">
      
 <a href="#" class="block-content-main-title">Технологичное решение</a>
   
-  <p class="block-content-main-text">Плагины в Excel (Р7/Мой Офис/OpenOffice ) для интеграции c базами данных и серверами приложений (C#/JavaScript).
+  <p class="block-content-main-text-four">Плагины в Excel (Р7/Мой Офис/OpenOffice ) для интеграции c базами данных и серверами приложений (C#/JavaScript).
   Собственный сервер приложений (Python/Pandas/PySpark) для процессинга расчетов.</p>
 </div>
-<img src="pages/img/settings_database_icon.svg" width="96px" height="96px" alt="Шестигранник" class="block-content-main-icon">
+<img src="../pages/img/settings_database_icon.svg" width="96px" height="96px" alt="Шестигранник" class="block-content-main-icon">
 </div>
 </div>
 </div>
 </div>
+</div>
+
   <div class="mainQuestionnaire">
     <div class="mainQuestionnaire_content">
       <div class="navbar">
@@ -141,8 +146,8 @@
    
     <figure>
       <figcaption>
-        <img src="pages/img/vector.png" width= "116px"  height= "1px" alt="">
-    <img src="pages/img/action-step-first.svg.svg" width="32px" height=" 32px" alt="Первый шаг">
+        <img src="../pages/img/vector.png" width= "116px"  height= "1px" alt="">
+    <img src="../pages/img/action-step-first.svg.svg" width="32px" height=" 32px" alt="Первый шаг">
     <b><br>Анкета</br></b> 
   </figcaption>
   </figure>
@@ -153,8 +158,8 @@
   <div class="second-step">
     <figure>
       <figcaption>
-        <img src="pages/img/vector.png" width= "116px"  height= "1px" alt="">
-    <img src="pages/img/action-step-second.svg.svg" width="32px" height="32px" alt="Второй шаг">
+        <img src="../pages/img/vector.png" width= "116px"  height= "1px" alt="">
+    <img src="../pages/img/action-step-second.svg.svg" width="32px" height="32px" alt="Второй шаг">
     <b>Бесплатный доступ</b>
   </figcaption>
   </figure>
@@ -165,8 +170,8 @@
   
     <figure>
       <figcaption>
-        <img src="pages/img/vector.png" width= "116px"  height= "1px" alt="">
-    <img src="pages/img/action-step-third.svg.svg" width="32px" height="32px" alt="Третий шаг шаг">
+        <img src="../pages/img/vector.png" width= "116px"  height= "1px" alt="">
+    <img src="../pages/img/action-step-third.svg.svg" width="32px" height="32px" alt="Третий шаг шаг">
     <b><br>Успешное пользование</br></b>
   </figcaption>
   </figure>
@@ -198,7 +203,7 @@
     <div class="footer-content">
       <figure>
         <figcaption >
-      <img src="pages/img/iconGuard.svg" alt="Защита" class="iconGuard">
+      <img src="../pages/img/iconGuard.svg" alt="Защита" class="iconGuard">
        Мы гарантируем безопасность и сохранность ваших данных
     </figcaption>
     </figure>
@@ -206,7 +211,7 @@
   <p class="mainQuestionnaire_footer">Оставляя свои контактные данные, вы разрешаете нам обратиться к вам за обратной связью по нашему продукту.</p>
     </div>
 
-  </div>
+  
 
   <div class="quests">
    
@@ -215,17 +220,17 @@
 
 <figure>
 
-<figcaption class="quests_content_text"><img src="pages/img/plus_icon-icons.svg" width="18px" height="15.95px" alt="Плюс"> Как начать работать с in2sql?</figcaption>
+<figcaption class="quests_content_text"><img src="../pages/img/plus_icon-icons.svg" width="18px" height="15.95px" alt="Плюс"> Как начать работать с in2sql?</figcaption>
 </figure>
 
 <figure>
 
-  <figcaption class="quests_content_text">  <img src="pages/img/plus_icon-icons.svg" width="18px" height="15.95px" alt="Плюс"> Нужны ли мне навыки программирования дла работы с in2sql?</figcaption>
+  <figcaption class="quests_content_text">  <img src="../pages/img/plus_icon-icons.svg" width="18px" height="15.95px" alt="Плюс"> Нужны ли мне навыки программирования дла работы с in2sql?</figcaption>
   </figure>
 
   <figure>
 
-    <figcaption class="quests_content_text">    <img src="pages/img/plus_icon-icons.svg" width="18px" height="15.95px" alt="Плюс"> С чем можно интегрировать in2sql?</figcaption>
+    <figcaption class="quests_content_text">    <img src="../pages/img/plus_icon-icons.svg" width="18px" height="15.95px" alt="Плюс"> С чем можно интегрировать in2sql?</figcaption>
     </figure>
 
   </div>
@@ -233,7 +238,7 @@
 
 <div class="what">
 
-  <img src="pages/img/in2sql.svg" width="244px" height="204px" alt="in2sql" class="insql_image">
+  <img src="../pages/img/in2sql.svg" width="244px" height="204px" alt="in2sql" class="insql_image">
   <div class="what_row">
   <a href="#" class="link_title"><h1>Попробуй in2sql прямо сейчас</h1></a>
   
@@ -259,15 +264,15 @@
 </div>
 
   </div>
-</div>
+
 
       <footer class="main-footer">
-          <div class="container">
+          <div class="container-main-footer">
           <div class="footer-row">
               <div class="footer_icon">
           <figure>
               <figcaption>
-            <img src="pages/img/telegram-mini.svg" width="15px" height="15px" alt="телеграм">
+            <img src="../pages/img/telegram-mini.svg" width="15px" height="15px" alt="телеграм">
             Москва 
           </figcaption>
           </figure>
@@ -281,11 +286,11 @@
            
           </ul>
           <div class="footer-telegram">
-             <a href="#"><img src="pages/img/icon_telegram.svg" width="24px" height="24px" alt="телеграм"></a>
+             <a href="#"><img src="../pages/img/icon_telegram.svg" width="24px" height="24px" alt="телеграм"></a>
           </div>
       </div>
       </div>
-     <img src="pages/img/Separator.svg" width=" 1140px"
+     <img src="../pages/img/Separator.svg" width=" 1140px"
       height="1px" alt="" class="separator">
        <div class="footer-second">
       <div class = "footer-nav">
@@ -302,5 +307,6 @@
     </div>
     </footer>
 
-  
+  </div>
+
           </body>
