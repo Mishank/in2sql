@@ -10,14 +10,11 @@ body {
     font-family: 'Roboto Serif', serif;
 margin: 0;
 
-display: grid;
-grid-template-rows: auto 1fr;
-min-height: 100vh;
-  
+
 }
 .main-nav {
     display: flex;
-    width: 1000px;
+    width: 950px;
     height: 80px;
     flex-shrink: 0;
 }
@@ -27,6 +24,7 @@ min-height: 100%;
 overflow: hidden;
 display: flex;
 flex-direction: column;
+
 }
 
 
@@ -34,7 +32,8 @@ flex-direction: column;
 .content__container {
 width:1140px;
 margin: 0 auto;
-padding: 0px 15px;
+padding-left: 15px;
+padding-right: 15px;
 }
 
 
@@ -205,8 +204,8 @@ color: #FFFFFF;
 
 .questionnaire{
 margin-top: 50px;
-max-width: 1178px;
-max-height: 869px;
+width: 1178px;
+height: 869px;
 margin: 0 auto;
 padding-left:250px ;
 padding-right:100px ;
@@ -359,6 +358,60 @@ background: #F5F7F9;
     margin-bottom: 72px;
 
 }
+@media (max-width: 1200px) {
+  
+  }
+  @media (max-width: 1000px) {
+    .about_heading {
+        margin: 70px 0  0  auto ;
+        width: 768px;
+  
+    }
+    .about_first_column {
+      width: 768px;
+      flex-direction: column;
+      margin: 0 auto;
+    }
+    .about_second_column {
+        width: 768px;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+  }
+  @media (max-width: 768px) {
+    .about_heading {
+        margin: 70px 0  0  auto ;
+        width: 480px;
+        margin: 0 auto;
+    }
+    .about_first_column {
+      width: 480px;
+      flex-direction: column;
+      margin: 0 auto;
+    }
+    .about_second_column {
+        width: 480px;
+      flex-direction: column;
+      margin: 0 auto;
+    }
+  }
+  @media (max-width: 480px) {
+    .about_heading {
+        margin: 70px 0  0  auto ;
+        width: 96vw;
+        margin: 0 auto;
+    }
+    .about_first_column {
+      width: 96vw;
+      flex-direction: column;
+      margin: 0 auto;
+    }
+    .about_second_column {
+        width: 96vw;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+  }
 
 .block-content {
     display: flex;
@@ -465,9 +518,9 @@ margin-bottom: 103px;
 }
 
 .mainQuestionnaire_content {
-    max-width:564px;
+    width:564px;
     margin:0px auto;
-  flex: 1 1 auto;
+
 
 
 }
@@ -530,10 +583,10 @@ background: rgba(11, 31, 53, 0.07);
 
 .one-year {
     margin: 15px;
-    flex:0 1 50%;
+   
 width: 270px;
 height: 48px;
-left: 294px;
+
 padding: 0px 65.94999694824219px 0px 66.16000366210938px;
 border-radius: 8px;
 
@@ -669,7 +722,7 @@ color: #0D0D0DB2;
  .what_row {
      width: 760px;
  height: 325.3599853515625px;
- left: 380px;
+
  padding-left: 100px;
 
  
@@ -694,7 +747,7 @@ color: #0D0D0DB2;
  .about_sql {
      width: 731.1699829101562px;
  height: 17px;
- top: 54px;
+
  font-family: Roboto;
  font-size: 15px;
  font-weight: 400;
@@ -727,7 +780,7 @@ color: #0D0D0DB2;
  .price {
      width: 230px;
      height: 117.97000122070312px;
-     left: 265px;
+    
     
  padding-top: 6px;
  font-family: Roboto;
@@ -744,7 +797,7 @@ color: #0D0D0DB2;
  .price_number {
      width: 21.790000915527344px;
      height: 20px;
-     top: 34px;
+    
      
  
      font-family: Roboto;
@@ -761,7 +814,7 @@ color: #0D0D0DB2;
  .action_time {
   width: 173px;
  height: 17px;
- top: 3.420166015625px;
+
  font-family: Roboto;
  font-size: 15px;
  font-weight: 400;
@@ -772,7 +825,7 @@ color: #0D0D0DB2;
  }
  
  .button_free {
- top: 208px; 
+
  border-radius: 6px;
  border: 1px;
  gap: 6px;
@@ -808,7 +861,7 @@ color: #0D0D0DB2;
  .one_month_text {
  width: 197.14999389648438px;
  height: 17px;
- top: 63.18994140625px;
+
  font-family: Roboto;
  font-size: 15px;
  font-weight: 400;
@@ -822,7 +875,7 @@ color: #0D0D0DB2;
  .action_time {
  width: 173px;
  height: 17px;
- top: 3.420166015625px;
+
  font-family: Roboto;
  font-size: 15px;
  font-weight: 400;
@@ -860,14 +913,12 @@ align-items: center;
      
  }
  .container-main-footer {
-    width: 1140px;
-height: 294px;
+
 margin: 0 auto;
  }
 
 .content-main-footer {
-    width: 1140px;
-height: 209px;
+
 flex-shrink: 0;
 }
 
@@ -888,8 +939,14 @@ margin: 0 ;
  color: #FFFFFF;
  
  }
- 
+ .footer-telephone {
+    display: flex;
+ }
+ .footer-telephone-list-ul {
+    display: grid;
+ }
  .footer-telephone-list {
+
  font-family: Roboto;
  font-size: 14px;
  font-weight: 400;
@@ -902,33 +959,27 @@ margin: 0 ;
  padding-left: 10px;
  }
  .separator {
- width: 1140px;
- height: 1px;
- top: 93px;
+
+
  color: #464649;
  
  }
  
  .footer-telegram {
- padding-left: 400px;
- 
+
+ padding: 35px;
  }
  
  .footer-second {
- width: 1140px;
- height: 122px;
- top: 97px;
- left: 8px;
+
  padding: 32px 0px 32px 0px;
  
  }
  
  .footer-nav {
- width: 740px;
- height: 58px;
- top: 32px;
+
  padding: 0px 416px 37px 0px;
- 
+ text-decoration: none;
  }
  
  .footer-nav-list {
@@ -958,5 +1009,7 @@ margin: 0 ;
  text-align: left;
  color: #FFFFFF;
  margin: 0 auto;
+ padding-left: 45px;
+
  }
 
