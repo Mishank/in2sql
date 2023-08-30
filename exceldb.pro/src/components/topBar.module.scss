@@ -1,0 +1,249 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Serif', serif;
+    margin: 0;
+  
+
+
+}
+.main-nav {
+    display: flex;
+    width: 540px;
+    justify-content: space-between;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: all .3s ease-in;
+    padding-left: 15px;
+}
+
+nav{
+    background: #000;
+    padding: 1px 5px;   
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+ text-align: center;
+}
+nav > ul {
+   padding: 0;
+}
+nav li{
+    display: inline-block;
+    vertical-align: top;
+	padding: 2px;
+}
+nav a{
+    color: #fff;
+    padding: 1px 5px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: 0.9s;
+}
+
+
+input[type="checkbox"] {
+    display: none;
+}
+nav label {    
+    display: none;
+    
+    padding: 1px 5px;
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    
+	nav {
+	text-align: left;
+	}
+    nav label{
+         display: inline-block;
+    }
+    nav > ul {
+        display: none;
+		/*width: 100px;*/
+		left: 0;
+    }
+	nav li{
+    display: block;
+ 
+	padding: 2px;
+}
+    input[type="checkbox"]:checked ~ label + ul {
+        display: block;
+    }
+    
+}
+.layout-navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 2rem;
+}
+
+.wrapper {
+min-height: 100%;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+
+}
+
+
+
+.content__container {
+width:1140px;
+
+
+}
+
+.content__container_header {
+
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+    background-color: #000000;
+    padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 25px;
+
+
+}
+
+
+.site-navigation {
+    list-style-type: none;
+
+}
+li {
+    display: inline;
+}
+
+.vertical_row{
+    display: flex;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+.contact_nav {
+    
+    align-items: center;
+   
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 114.286% */
+text-decoration: none;
+
+margin-top: 40px;
+}
+
+
+.blog_nav {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 114.286% */
+text-decoration: none;
+margin-top: 40px;
+
+
+}
+.site-navigation-button-free {
+    padding: 0px 200px 0px 4px;
+    align-items: center;
+    gap: 12px;
+   
+    margin-top: 20px;
+}
+.button-free-text {
+width: 200px;
+height: 16px;
+padding-bottom: 24px;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+background-color: #000000;
+
+border: 1px solid #B6BCC3;
+padding-top: 10px;
+border-radius: 6px;
+margin-right: 10px;
+
+}
+.button-year-tex-nav{
+    width: 200px;
+    height: 16px;
+    padding-bottom: 24px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;;
+    background-color: #004077;
+    border: 1px ;
+ 
+    padding-top: 10px;
+    border-radius: 6px;
+    margin-left: 650px;
+    }
+
+.button-year-text{
+width: 200px;
+height: 16px;
+padding-bottom: 24px;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;;
+background-color: #004077;
+border: 1px ;
+
+padding-top: 10px;
+border-radius: 6px;
+
+}
+.layout-toogleButton_mx92V {
+    color: transparent;
+    position: absolute;
+    display: none;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+  
+}
+.survey {
+    display: flex;
+
+  
+    flex-shrink: 0;
+
+background: #000000;
+
+
+}
+
+.content {
+width: 1140px;
+
+}
