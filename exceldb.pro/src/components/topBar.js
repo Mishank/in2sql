@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import s from "./topBar.module.scss";
+import "./topBar.module.scss";
 
 const TopBar = () => {
   return (
@@ -35,6 +35,7 @@ const TopBar = () => {
             </nav>
           </div>
         </header>
+        
       </div>
     </div>
   );
