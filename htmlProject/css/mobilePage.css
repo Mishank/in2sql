@@ -74,7 +74,7 @@ nav label {
     }
 	nav li{
     display: block;
-    vertical-align: top;
+
 	padding: 2px;
 }
     input[type="checkbox"]:checked ~ label + ul {

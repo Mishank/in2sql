@@ -1,5 +1,16 @@
- .main-footer{
-width: 100%;
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   
+   }
+ .main_footer{
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   
      background-color: #000000;
      display: inline-flex;
 
@@ -7,18 +18,18 @@ align-items: center;
 
      
  }
- .container-main-footer {
+ .container_main_footer {
 
 margin: 0 auto;
  }
 
-.content-main-footer {
+.content_main_footer {
 
 flex-shrink: 0;
 }
 
  
- .footer-row {
+ .footer_row {
   display: flex;
 margin: 0 ;
  }
@@ -34,13 +45,13 @@ margin: 0 ;
  color: #FFFFFF;
  
  }
- .footer-telephone {
+ .footer_telephone {
     display: flex;
  }
- .footer-telephone-list-ul {
+ .footer_telephone_list_ul {
     display: grid;
  }
- .footer-telephone-list {
+ .footer_telephone_list {
 
  font-family: Roboto;
  font-size: 14px;
@@ -60,28 +71,28 @@ margin: 0 ;
  
  }
  
- .footer-telegram {
+ .footer_telegram {
 
  padding: 35px;
  }
  
- .footer-second {
+ .footer_second {
 
  padding: 32px 0px 32px 0px;
  
  }
  
- .footer-nav {
+ .footer_nav {
 
  padding: 0px 416px 37px 0px;
  text-decoration: none;
  }
  
- .footer-nav-list {
+ .footer_nav_list {
     display: inline;
     
  }
- .footer-nav-list-item {
+ .footer_nav_list_item {
  text-decoration: none;
  font-family: Roboto;
  font-size: 14px;
@@ -95,7 +106,7 @@ margin: 0 ;
  border-bottom: 1px solid #FFFFFF66;
  
  }
- .footer-date-text {
+ .footer_date_text {
  font-family: Roboto;
  font-size: 12px;
  font-weight: 400;
