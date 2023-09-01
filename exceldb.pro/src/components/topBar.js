@@ -1,41 +1,51 @@
 import { Link } from "react-router-dom";
-import "./topBar.module.scss";
+import s from "./topBar.module.scss";
 
 const TopBar = () => {
   return (
-    <div class="wrapper">
-      <div class="survey">
-        <header class="content__container_header">
-          <div class="content__container">
-            <nav class="main-nav">
+    <div className={s.wrapper}>
+      <div className={s.survey}>
+        <header className={s.content__container_header}>
+          <div className={s.content__container}>
+            <nav className={s.main_nav}>
               <input type="checkbox" name="menu" id="btn-menu" />
-              <label for="btn-menu"></label>
+              <label for="btn-menu">
+                <img
+                  alt="icon"
+                  fetchpriority="high"
+                  width="54px"
+                  decoding="async"
+                  data-nigm="1"
+                  className={s.btn_menu}
+                  src="../../img/icon-toggle-menu-button.svg"
+                ></img>
+              </label>
+
               <ul>
                 <li>
-                  <Link to="http://127.0.0.1:8080" class="contact_nav">
+                  <Link to="http://localhost:3000" className={s.contact_nav}>
                     Главная
                   </Link>
                 </li>
                 <li>
                   <Link
-                    to="http://127.0.0.1:8080/pages/contact.html"
-                    class="blog_nav"
+                    to="http://localhost:3000/contact"
+                    className={s.blog_nav}
                   >
                     Контакты
                   </Link>
                 </li>
 
-                <button
-                  onclick="window.location.href ='http://127.0.0.1:8080/pages/questionnaire.html';"
-                  class="button-year-tex-nav"
+                <Link
+                  to="http://localhost:3000/questionnaire"
+                  className={s.button_year_text_nav}
                 >
                   Получить 1 год бесплатно
-                </button>
+                </Link>
               </ul>
             </nav>
           </div>
         </header>
-        
       </div>
     </div>
   );

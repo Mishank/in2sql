@@ -1,13 +1,14 @@
-import "./footer.module.scss";
+import s from "./footer.module.scss";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer>
-      <div class="main-footer">
-        <div class="container-main-footer">
-          <div class="content-main-footer">
-            <div class="footer-row">
-              <div class="footer_icon">
+    <div className={s.wrapper}>
+      <div className={s.main_footer}>
+        <div className={s.container_main_footer}>
+          <div className={s.content_main_footer}>
+            <div className={s.footer_row}>
+              <div className={s.ooter_icon}>
                 <figure>
                   <figcaption>
                     <img
@@ -20,22 +21,22 @@ const Footer = () => {
                   </figcaption>
                 </figure>
               </div>
-              <div class="footer-telephone">
-                <div class="footer-telephone-list">
-                  <ul class="footer-telephone-list">
+              <div className={s.footer_telephone}>
+                <div className={s.footer_telephone_list}>
+                  <ul className={s.footer_telephone_list}>
                     <li>+7 495 000 00 00 — Бизнесу и ИП</li>
                     <li>+7 495 111 11 11 — Частным клиентам</li>
                   </ul>
                 </div>
-                <div class="footer-telegram">
-                  <a href="#">
+                <div className={s.footer_telegram}>
+                  <Link to="#">
                     <img
                       src="../pages/img/icon_telegram.svg"
                       width="24px"
                       height="24px"
                       alt="телеграм"
                     ></img>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -44,26 +45,26 @@ const Footer = () => {
               width=" 1140px"
               height="1px"
               alt=""
-              class="separator"
+              className={s.separator}
             ></img>
-            <div class="footer-second">
-              <div class="footer-nav">
-                <ul class="footer-nav-list">
-                  <a href="http://127.0.0.1:8080/pages/listOfArticles.html">
-                    <li class="footer-nav-list-item">Блог</li>
-                  </a>
-                  <a href="http://127.0.0.1:8080/pages/contact.html">
-                    <li class="footer-nav-list-item">Контакты</li>
-                  </a>
-                  <a href="http://127.0.0.1:8080/pages/questionnaire.html">
-                    <li class="footer-nav-list-item">
+            <div className={s.footer_second}>
+              <div className={s.footer_nav}>
+                <ul className={s.footer_nav_list}>
+                  <Link to="http://localhost:3000/listOfArticles">
+                    <li className={s.footer_nav_list_item}>Блог</li>
+                  </Link>
+                  <Link to="http://localhost:3000/contact">
+                    <li className={s.footer_nav_list_item}>Контакты</li>
+                  </Link>
+                  <Link to="http://localhost:3000/questionnaire">
+                    <li className={s.footer_nav_list_item}>
                       Получить годовую лицензию
                     </li>
-                  </a>
+                  </Link>
                 </ul>
               </div>
-              <div class="footer-date">
-                <p class="footer-date-text">
+              <div className={s.footer_date}>
+                <p className={s.footer_date_text}>
                   © 2021-2023.ООО «ЧТО ТО», официальный сайт in2sql. Передавая
                   нам свои контактные данные, мы гарантируем безопасность их
                   хранения.
@@ -73,7 +74,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 
