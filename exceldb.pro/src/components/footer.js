@@ -8,15 +8,15 @@ const Footer = () => {
         <div className={s.container_main_footer}>
           <div className={s.content_main_footer}>
             <div className={s.footer_row}>
-              <div className={s.ooter_icon}>
+              <div className={s.footer_icon}>
                 <figure>
                   <figcaption>
-                    <img
-                      src="../pages/img/telegram-mini.svg"
+                    <div className={s.footer_telegram_icons}
+                      src="../../../img/telegram-mini.svg"
                       width="15px"
                       height="15px"
                       alt="телеграм"
-                    ></img>
+                    ></div>
                     Москва
                   </figcaption>
                 </figure>
@@ -30,12 +30,12 @@ const Footer = () => {
                 </div>
                 <div className={s.footer_telegram}>
                   <Link to="#">
-                    <img
-                      src="../pages/img/icon_telegram.svg"
+                    <div
+                      src="../../../img/icon_telegram.svg"
                       width="24px"
                       height="24px"
                       alt="телеграм"
-                    ></img>
+                    ></div>
                   </Link>
                 </div>
               </div>

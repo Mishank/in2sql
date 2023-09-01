@@ -65,13 +65,13 @@ const MainPage = () => {
                     приложений которое интегрируется в Excel
                   </p>
                 </div>
-                <img
-                  src="../pages/img/first-img-about.svg"
+                <div
+                  src="../../../img/first-img-about.svg"
                   width="96px"
                   height="100.25px"
                   alt=""
-                  class="block_content_main_icon"
-                ></img>
+                  className={s.block_content_main_icon_one}
+                ></div>
               </div>
             </div>
 
@@ -89,13 +89,13 @@ const MainPage = () => {
                       будут иметь удобный доступ к данным.
                     </p>
                   </div>
-                  <img
-                    src="../pages/img/three_img_about.svg"
+                  <div
+                    src="../../../img/three_img_about.svg"
                     width="96px"
                     height="84.86px"
-                    alt="Пазл"
-                    className={s.block_content_main_icon}
-                  ></img>
+                    alt=""
+                    className={s.block_content_main_icon_two}
+                  ></div>
                 </div>
               </div>
             </div>
@@ -113,13 +113,13 @@ const MainPage = () => {
                     Избавим вас от MDM, FDQM, CPM, и ETL процессов.
                   </p>
                 </div>
-                <img
-                  src="../pages/img/web_statistics_page_icon.svg"
+                <div
+                  src="../../../img/web_statistics_page_icon.svg"
                   width="96px"
                   height="96px"
-                  alt="Статистика"
-                  class="block-content-main-icon"
-                ></img>
+                  alt=""
+                  className={s.block_content_main_icon_tree}
+                ></div>
               </div>
             </div>
 
@@ -137,13 +137,13 @@ const MainPage = () => {
                     процессинга расчетов.
                   </p>
                 </div>
-                <img
-                  src="../pages/img/settings_database_icon.svg"
+                <div
+                  src="../../../img/settings_database_icon.svg"
                   width="96px"
                   height="96px"
-                  alt="Шестигранник"
-                  className={s.block_content_main_icon}
-                ></img>
+                  alt=""
+                  className={s.block_content_main_icon_four}
+                ></div>
               </div>
             </div>
           </div>
@@ -160,18 +160,19 @@ const MainPage = () => {
               <div className={s.first_step}>
                 <figure>
                   <figcaption>
-                    <img
+                    <div
                       src="../pages/img/vector.png"
                       width="116px"
                       height="1px"
                       alt=""
-                    ></img>
-                    <img
+                    ></div>
+                    <div
+                      className={s.step_number_one}
                       src="../pages/img/action-step-first.svg.svg"
                       width="32px"
                       height=" 32px"
                       alt="Первый шаг"
-                    ></img>
+                    ></div>
                     <b>
                       <div>Анкета</div>
                     </b>
@@ -182,18 +183,19 @@ const MainPage = () => {
               <div className={s.second_step}>
                 <figure>
                   <figcaption>
-                    <img
+                    <div
                       src="../pages/img/vector.png"
                       width="116px"
                       height="1px"
                       alt=""
-                    ></img>
-                    <img
+                    ></div>
+                    <div
+                      className={s.step_number_two}
                       src="../pages/img/action-step-second.svg.svg"
                       width="32px"
                       height="32px"
                       alt="Второй шаг"
-                    ></img>
+                    ></div>
                     <b>Бесплатный доступ</b>
                   </figcaption>
                 </figure>
@@ -202,18 +204,19 @@ const MainPage = () => {
               <div className={s.tree_step}>
                 <figure>
                   <figcaption>
-                    <img
+                    <div
                       src="../pages/img/vector.png"
                       width="116px"
                       height="1px"
                       alt=""
-                    ></img>
-                    <img
+                    ></div>
+                    <div
+                      className={s.step_number_tree}
                       src="../pages/img/action-step-third.svg.svg"
                       width="32px"
                       height="32px"
                       alt="Третий шаг шаг"
-                    ></img>
+                    ></div>
                     <b>
                       <div>Успешное пользование</div>
                     </b>
@@ -257,12 +260,16 @@ const MainPage = () => {
           <div className={s.footer_content}>
             <figure>
               <figcaption>
-                <img
+                <div
+                  className={s.guard_icon}
                   src="../pages/img/iconGuard.svg"
                   alt="Защита"
-                  className={s.iconGuard}
-                ></img>
-                Мы гарантируем безопасность и сохранность ваших данных
+                >
+                  {" "}
+                  <p className={s.garant_text}>
+                    Мы гарантируем безопасность и сохранность ваших данных
+                  </p>
+                </div>{" "}
               </figcaption>
             </figure>
           </div>
@@ -279,79 +286,93 @@ const MainPage = () => {
 
           <figure>
             <figcaption className={s.quests_content_text}>
-              <img
-                src="../pages/img/plus_icon-icons.svg"
+              <div
+                className={s.plus}
+                src="../../../img/plus_icon-icons.svg"
                 width="18px"
                 height="15.95px"
                 alt="Плюс"
-              ></img>{" "}
-              Как начать работать с in2sql?
+              >
+                {" "}
+                <p className={s.plus_text}> Как начать работать с in2sql?</p>
+              </div>{" "}
             </figcaption>
           </figure>
 
           <figure>
             <figcaption className={s.quests_content_text}>
               {" "}
-              <img
-                src="../pages/img/plus_icon-icons.svg"
+              <div
+                className={s.plus}
+                src="../../../img/plus_icon-icons.svg"
                 width="18px"
                 height="15.95px"
                 alt="Плюс"
-              ></img>{" "}
-              Нужны ли мне навыки программирования дла работы с in2sql?
+              >
+                {" "}
+                <p className={s.plus_text}>
+                  {" "}
+                  Нужны ли мне навыки программирования дла работы с in2sql?
+                </p>
+              </div>{" "}
             </figcaption>
           </figure>
 
           <figure>
             <figcaption className={s.quests_content_text}>
               {" "}
-              <img
-                src="../pages/img/plus_icon-icons.svg"
+              <div
+                className={s.plus}
+                src="../../../img/plus_icon-icons.svg"
                 width="18px"
                 height="15.95px"
                 alt="Плюс"
-              ></img>{" "}
-              С чем можно интегрировать in2sql?
+              >
+                {" "}
+                <p className={s.plus_text}>
+                  {" "}
+                  С чем можно интегрировать in2sql?{" "}
+                </p>
+              </div>{" "}
             </figcaption>
           </figure>
         </div>
+      </div>
+      <div className={s.what}>
+        <div
+          src="../../../img/pngwing.png"
+          width="244px"
+          height="204px"
+          alt="in2sql"
+          className={s.insql_image}
+        ></div>
+        <div className={s.what_row}>
+          <Link to="#" className={s.link_title}>
+            <h1>Попробуй in2sql прямо сейчас</h1>
+          </Link>
 
-        <div className={s.what}>
-          <img
-            src="../pages/img/in2sql.svg"
-            width="244px"
-            height="204px"
-            alt="in2sql"
-            className={s.insql_image}
-          ></img>
-          <div className={s.what_row}>
-            <Link to="#" className={s.link_title}>
-              <h1>Попробуй in2sql прямо сейчас</h1>
-            </Link>
+          <p className={s.about_sql}>
+            Клиент для интеграции excel c внешними источниками данных.
+          </p>
 
-            <p className={s.about_sql}>
-              Клиент для интеграции excel c внешними источниками данных.
-            </p>
-
-            <div className={s.action}>
-              <div className={s.one_month}>
-                <p className={s.one_month_text_days}>30 дней</p>
-                <p className={s.one_month_text}>создавай свои отчеты</p>
-              </div>
-              <div className={s.price}>
-                <p className={s.price_number}>0 Р</p>
-                <p className={s.action_time}> акция до декабря 2022</p>
-              </div>
-              <div className={s.empty_div}>
-                <p className={s.empty_div_text}></p>
-              </div>
+          <div className={s.action}>
+            <div className={s.one_month_what}>
+              <p className={s.one_month_text_days}>30 дней</p>
+              <p className={s.one_month_text}>создавай свои отчеты</p>
             </div>
-
-            <button className={s.button_free}>
-              {" "}
-              <p className={s.button_free_text}>Попробовать бесплатно</p>
-            </button>
+            <div className={s.price}>
+              <p className={s.price_number}>0 Р</p>
+              <p className={s.action_time}> акция до декабря 2022</p>
+            </div>
+            <div className={s.empty_div}>
+              <p className={s.empty_div_text}></p>
+            </div>
           </div>
+
+          <button className={s.button_free}>
+            {" "}
+            <p className={s.button_free_text_try}>Попробовать бесплатно</p>
+          </button>
         </div>
       </div>
     </div>
