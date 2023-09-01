@@ -267,7 +267,7 @@ color: #FFFFFF;
     padding: var(--layout-padding);
     display: flex;
     flex-direction: column;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
   
@@ -376,7 +376,7 @@ font-size: 30px;
 font-style: normal;
 font-weight: 700;
 line-height: 36px; /* 120% */
-margin-top: 70px;
+
 }
 
 .about_first_column {
@@ -472,7 +472,7 @@ background: #F5F7F9;
 
 .block_content {
     display: flex;
-    width: 490.5px;
+    width: 480.5px;
     height: 150px;
     padding: 32px;
     justify-content: center;
@@ -607,6 +607,27 @@ margin-bottom: 103px;
     flex:0 1 33%;
 }
 
+.step_number_one {
+    background-image: url(../../../img/action-step-first.svg.svg);
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+
+}
+.step_number_two {
+    background-image: url(../../../img/action-step-second.svg.svg);
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+
+}
+.step_number_tree {
+    background-image: url(../../../img/action-step-third.svg.svg);
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+
+}
 .second_step{
     flex:0 1 33%;
 }
@@ -706,7 +727,7 @@ color: #FFFFFF;
 
 .footer_content {
     width: 564px;
-    height: 56px;
+    height: 36px;
   
  
     border-radius: 4px;
@@ -715,8 +736,19 @@ color: #FFFFFF;
     background-color: #F5F7F9;
 margin-left: 110px;
 }
-.iconGuard {
-    padding-right: 20px;
+.guard_icon {
+    padding-top: 1px;
+height: 26px;
+    background-image: url(../../../img/iconGuard.svg);
+    
+
+    background-repeat: no-repeat;
+   
+}
+.garant_text {
+    margin-top: 5px;
+    padding-left: 30px;
+    
 }
 
 .mainQuestionnaire_title {
@@ -757,7 +789,7 @@ height: 236px;
 border-radius: 4px;
 background-color: #F5F7F9;
 margin: 0 auto;
-margin-bottom: 150px;
+margin-bottom: 92px;
 }
 .quests_title {
     width: 349px;
@@ -778,11 +810,20 @@ color: #0E0E0E;
 }
 
 .quests_content {
-    width: 1075.5px;
-    height:172px;
-   
+
+    padding-right: 0px;
+
+    gap: 24px;
 
 
+}
+.plus{
+    background-image: url(../../../img/plus_icon-icons.svg);
+    background-repeat: no-repeat;
+  
+}
+.plus_text {
+    padding-left: 25px;
 }
 
 .quests_content_text {
@@ -816,12 +857,18 @@ color: #0D0D0DB2;
  
  
  }
+ .insql_image{
+    background-image: url(../../../img/pngwing.png);
+    width: 244px;
+    height: 204px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+ }
  
  .what_row {
-     width: 760px;
- height: 325.3599853515625px;
-
- padding-left: 100px;
+    width: 760px;
+    height: 325.36px;
+ padding-left: 78px;
 
  
  }
@@ -860,18 +907,16 @@ color: #0D0D0DB2;
      display: flex;
  }
  .one_month {
-    
-     width: 230px;
-     height: 117.97000122070312px;
- 
-     
- 
-     font-family: Roboto;
-     font-size: 18px;
-     font-weight: 600;
-     line-height: 25px;
-     letter-spacing: 0em;
-     text-align: left;
+    margin: 15px;
+   
+width: 270px;
+height: 48px;
+
+padding: 0px 65.94999694824219px 0px 66.16000366210938px;
+border-radius: 8px;
+
+border-radius: 8px;
+background: rgba(11, 31, 53, 0.07);
      
  }
  
