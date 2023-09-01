@@ -12,7 +12,7 @@ const Footer = () => {
                 <figure>
                   <figcaption>
                     <img
-                      src="../pages/img/telegram-mini.svg"
+                      src="../../../img/telegram-mini.svg"
                       width="15px"
                       height="15px"
                       alt="телеграм"

@@ -65,13 +65,13 @@ const MainPage = () => {
                     приложений которое интегрируется в Excel
                   </p>
                 </div>
-                <img
-                  src="../pages/img/first-img-about.svg"
+                <div 
+                  src="../../../img/first-img-about.svg"
                   width="96px"
                   height="100.25px"
                   alt=""
-                  class="block_content_main_icon"
-                ></img>
+                  className={s.block_content_main_icon_one}
+                ></div>
               </div>
             </div>
 
@@ -89,13 +89,13 @@ const MainPage = () => {
                       будут иметь удобный доступ к данным.
                     </p>
                   </div>
-                  <img
-                    src="../pages/img/three_img_about.svg"
+                  <div
+                    src="../../../img/three_img_about.svg"
                     width="96px"
                     height="84.86px"
-                    alt="Пазл"
-                    className={s.block_content_main_icon}
-                  ></img>
+                    alt=""
+                    className={s.block_content_main_icon_two}
+                  ></div>
                 </div>
               </div>
             </div>
@@ -113,13 +113,13 @@ const MainPage = () => {
                     Избавим вас от MDM, FDQM, CPM, и ETL процессов.
                   </p>
                 </div>
-                <img
-                  src="../pages/img/web_statistics_page_icon.svg"
+                <div
+                  src="../../../img/web_statistics_page_icon.svg"
                   width="96px"
                   height="96px"
-                  alt="Статистика"
-                  class="block-content-main-icon"
-                ></img>
+                  alt=""
+                  className={s.block_content_main_icon_tree}
+                ></div>
               </div>
             </div>
 
@@ -137,13 +137,13 @@ const MainPage = () => {
                     процессинга расчетов.
                   </p>
                 </div>
-                <img
-                  src="../pages/img/settings_database_icon.svg"
+                <div
+                  src="../../../img/settings_database_icon.svg"
                   width="96px"
                   height="96px"
-                  alt="Шестигранник"
-                  className={s.block_content_main_icon}
-                ></img>
+                  alt=""
+                  className={s.block_content_main_icon_four}
+                ></div>
               </div>
             </div>
           </div>
@@ -280,7 +280,7 @@ const MainPage = () => {
           <figure>
             <figcaption className={s.quests_content_text}>
               <img
-                src="../pages/img/plus_icon-icons.svg"
+                src="../../../img/plus_icon-icons.svg"
                 width="18px"
                 height="15.95px"
                 alt="Плюс"
@@ -293,7 +293,7 @@ const MainPage = () => {
             <figcaption className={s.quests_content_text}>
               {" "}
               <img
-                src="../pages/img/plus_icon-icons.svg"
+                src="../../../img/plus_icon-icons.svg"
                 width="18px"
                 height="15.95px"
                 alt="Плюс"
@@ -306,7 +306,7 @@ const MainPage = () => {
             <figcaption className={s.quests_content_text}>
               {" "}
               <img
-                src="../pages/img/plus_icon-icons.svg"
+                src="../../../img/plus_icon-icons.svg"
                 width="18px"
                 height="15.95px"
                 alt="Плюс"
@@ -318,7 +318,7 @@ const MainPage = () => {
 
         <div className={s.what}>
           <img
-            src="../pages/img/in2sql.svg"
+            src="../../../img/in2sql.svg"
             width="244px"
             height="204px"
             alt="in2sql"

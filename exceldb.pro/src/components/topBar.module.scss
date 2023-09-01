@@ -100,9 +100,12 @@ flex-direction: column;
 
 
 .content__container {
-width:1140px;
+width:1240px;
 margin: 0 auto;
-
+}
+.btn_menu {
+    position: absolute;
+    left: 25px;
 }
 
 .content__container_header {
@@ -206,7 +209,7 @@ margin-right: 10px;
  
     padding-top: 10px;
     border-radius: 6px;
-    margin-left: 650px;
+    margin-left: 780px;
   
     }
 
