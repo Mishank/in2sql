@@ -11,7 +11,8 @@ const Footer = () => {
               <div className={s.footer_icon}>
                 <figure>
                   <figcaption>
-                    <div className={s.footer_telegram_icons}
+                    <div
+                      className={s.footer_telegram_icons}
                       src="../../../img/telegram-mini.svg"
                       width="15px"
                       height="15px"
