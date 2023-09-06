@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import s from "./index.module.scss";
+
 const MainPage = () => {
   return (
+
     <div className={s.wrapper}>
       <div className={s.survey}>
         <div className={s.hero}>
