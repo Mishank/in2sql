@@ -23,7 +23,7 @@ const MainPage = () => {
               <Link className={s.one_year_free_text}>
                 Получить 1 год бесплатно
               </Link>
-            </button>
+            </button>  
           </div>
         </div>
       </div>
