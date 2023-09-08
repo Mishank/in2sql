@@ -10,15 +10,15 @@ const TopBar = () => {
             <nav className={s.main_nav}>
               <input type="checkbox" name="menu" id="btn-menu" />
               <label for="btn-menu">
-                <img
-                  alt="icon"
+                <div
+                 
                   fetchpriority="high"
                   width="54px"
                   decoding="async"
                   data-nigm="1"
-                  className={s.btn_menu}
-                  src="../../img/icon-toggle-menu-button.svg"
-                ></img>
+                  className={s.btn_menu_icon}
+                  src="./assets/icon-toggle-menu-button.svg"
+                ></div>
               </label>
 
               <ul>

@@ -1,0 +1,563 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Serif', serif;
+  max-width:1920px;
+  margin:0px auto;
+}
+
+.content {
+    max-width:1140px;
+    margin:0px auto;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+
+    display: flex;
+flex-direction: column;
+
+}
+.main-nav {
+    width: 1920px;
+   
+    
+}
+.site-navigation {
+    list-style-type: none;
+  
+  
+}
+li {
+    display: inline;
+}
+
+
+.vertical_row{
+    display: flex;
+}
+.contact_nav {
+    width: 66px;
+height: 16px;
+top: 40px;
+
+font-family: Roboto;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0em;
+
+color: #000000;
+text-decoration: none;
+
+}
+
+.blog_nav {
+    width: 31px;
+height: 16px;
+top: 40px;
+left: 109px;
+
+font-family: Roboto;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+color: #000000;
+margin: 50px;
+text-decoration: none;
+
+}
+.site-navigation-button-free {
+    width: 192.98px;
+    height: 32px;
+
+    border-radius: 6px;
+    border: 1px;
+    gap: 6px;
+  
+
+   
+}
+.button-free-text {
+    width: 200px;
+    height: 16px;
+    padding-bottom: 24px;
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+color: #000000;
+background-color:#FFFFFF;
+border: 1px solid #B6BCC3;
+padding-top: 10px;
+border-radius: 6px;
+margin-right: 10px;
+margin-left: 640px;
+}
+
+.site-navigation-button-year{
+
+    width: 192.98px;
+    height: 32px;
+
+    border-radius: 6px;
+    border: 1px;
+    gap: 6px;
+  
+}
+
+.button-year-text{
+    width: 200px;
+    height: 16px;
+    padding-bottom: 24px;
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;;
+background-color: #004077;
+border: 1px solid #B6BCC3;
+
+
+padding-top: 10px;
+border-radius: 6px;
+
+}
+
+
+
+.vertical_row_first {
+    margin:50px 0 50px 0;
+    display: flex;
+    flex: 0 1 33%;
+}
+.vertical_row_second {
+    margin:50px 0 50px 0;
+    display: flex;
+    flex: 0 1 33%;
+}
+.vertical_row_tree {
+    margin:50px 0 50px 0;
+    display: flex;
+    flex: 0 1 33%;
+}
+.vertical_row_four {
+     margin:50px 50px 50px 0;
+    display: flex;
+    flex: 0 1 33%;
+}
+
+.vertical_column {
+    width: 368px;
+    height: 244px;
+ 
+    padding: 32px;
+    border-radius: 8px;
+    
+
+    margin-right: 50px;
+    background: linear-gradient(0deg, rgba(0, 64, 119, 0.8) 0%, rgba(0, 64, 119, 0) 125.2%),
+linear-gradient(180deg, #FFFFFF 0%, rgba(252, 252, 252, 0) 100%);
+
+}
+
+.vertical_label {
+    width: 304px;
+height: 78px;
+top: 8px;
+padding: 0px 31.04998779296875px 1px 0px;
+
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.vertical_date {
+    width: 181.27999877929688px;
+    height: 16px;
+    top: 163px;
+    
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    padding-top: 150px;
+
+}
+.main-footer {
+    max-width:1920px;
+}
+
+.vertical_title {
+    width: 214.6699981689453px;
+    height: 33px;
+    margin-top: 100px;
+    left: 384px;
+    
+
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.read_more {
+   
+    width: 1140px;
+    height: 325px;
+
+font-family: Roboto;
+font-size: 15px;
+font-weight: 500;
+line-height: 24px;
+
+
+text-align: left;
+
+color: #0D0D0DB2;
+margin:150px 0px 0px 1175px;
+
+}
+
+.read_more_text{
+    text-decoration: none;
+}
+
+.title {
+
+    width: 452px;
+height: 34px;
+top: 1.2001953125px;
+padding: 0px 0px 1px 0px;
+border: 0px 0px 1px 0px;
+
+
+}
+
+
+.what{
+   display: flex;
+   width: 1140px;
+
+
+
+}
+
+.what{
+    
+ margin: 0 auto;
+width: 1140px;
+height: 325px;
+padding-bottom: 100px;
+
+
+}
+.insql_image {
+    background-image: url(./assets/pngwing.png);
+    width: 244px;
+    height: 204px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+  }
+
+.what_row {
+    width: 760px;
+height: 325.3599853515625px;
+left: 380px;
+padding-left: 50px;
+
+}
+.link_title {
+    width: 567.760009765625px;
+height: 33px;
+
+    font-family: Roboto;
+font-size: 15px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+color: #0E0E0E;
+border-bottom: 1px solid #0D0D0D66;
+
+
+}
+
+.about_sql {
+    width: 731.1699829101562px;
+height: 17px;
+top: 54px;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+
+
+}
+.action {
+    display: flex;
+}
+.one_month {
+   
+    width: 230px;
+    height: 117.97000122070312px;
+
+    
+
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.price {
+    width: 230px;
+    height: 117.97000122070312px;
+    left: 265px;
+   
+padding-top: 6px;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 30px;
+color: #0E0E0E;
+
+
+}
+.price_number {
+    width: 21.790000915527344px;
+    height: 20px;
+    top: 34px;
+    
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0E0E0E;
+
+    
+}
+
+.action_time {
+ width: 173px;
+height: 17px;
+top: 3.420166015625px;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #0D0D0D99;
+}
+
+.button_free {
+top: 208px; 
+border-radius: 6px;
+border: 1px;
+gap: 6px;
+background-color: #FFFFFF;
+padding: 0px 15px 0px 15px ;
+border: 1px solid #B6BCC3
+}
+
+.button_free_text {  
+font-family: Roboto;
+font-size: 14px;
+font-weight: 600;
+line-height: 0px;
+letter-spacing: 0em;
+text-align: center;
+ 
+color: #000000;
+
+}
+.one_month_text_days {
+width: 230px;
+height: 20px;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+color: #0E0E0E;
+
+}
+
+.one_month_text {
+width: 197.14999389648438px;
+height: 17px;
+top: 63.18994140625px;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #0D0D0DB2;
+
+}
+
+.action_time {
+width: 173px;
+height: 17px;
+top: 3.420166015625px;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #0D0D0D99;
+
+
+}
+
+.title_sql {
+width: 567.760009765625px;
+height: 133px;
+font-family: Roboto;
+font-size: 30px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+color: #0E0E0E;
+text-decoration:underline ;
+
+}
+
+
+
+.main-footer{
+    max-width: 1920px;
+    background-color: #000000;
+    height: 350px;
+    top: 2284px;
+    padding: 0px 396px 2px 384px;
+    
+}
+
+.footer-row {
+ display: flex;
+}
+
+.footer_icon {
+font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+padding-top: 20px;
+color: #FFFFFF;
+
+}
+
+.footer-telephone-list {
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+display:grid;
+padding-top: 20px;
+padding-left: 10px;
+}
+.separator {
+width: 1140px;
+height: 1px;
+top: 93px;
+color: #464649;
+
+}
+
+.footer-telegram {
+padding-left: 400px;
+
+}
+
+.footer-second {
+width: 1140px;
+height: 122px;
+top: 97px;
+left: 8px;
+padding: 32px 0px 32px 0px;
+
+}
+
+.footer-nav {
+width: 740px;
+height: 58px;
+top: 32px;
+padding: 0px 416px 37px 0px;
+
+}
+
+.footer-nav-list {
+   display: inline;
+   
+}
+.footer-nav-list-item {
+text-decoration: none;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+padding: 10px;
+
+border-bottom: 1px solid #FFFFFF66;
+
+}
+.footer-date-text {
+font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+margin: 0 auto;
+}
+.vertical_date_link a {
+   
+    text-decoration: none;
+
+}

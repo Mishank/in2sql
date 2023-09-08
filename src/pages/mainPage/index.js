@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 import s from "./index.module.scss";
 
+const baseUrl = process.env.REACT_APP_HOST || "http://localhost:3000";
+
 const MainPage = () => {
   return (
-
     <div className={s.wrapper}>
       <div className={s.survey}>
         <div className={s.hero}>
@@ -22,7 +23,7 @@ const MainPage = () => {
               <Link className={s.one_year_free_text}>
                 Получить 1 год бесплатно
               </Link>
-            </button>
+            </button>  
           </div>
         </div>
       </div>
