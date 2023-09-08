@@ -256,10 +256,10 @@ const ListOfArticles = () => {
 
       <div className={s.what}>
         <img
+          alt=""
           src="img/in2sql.svg"
           width="244px"
           height="204px"
-          alt="in2sql"
           className={s.insql_image}
         ></img>
         <div className={s.what_row}>
