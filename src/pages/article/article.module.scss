@@ -1,0 +1,441 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Serif', serif;
+  max-width:1920px;
+  margin:0px auto;
+  font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+}
+
+.container_nav {
+    max-width:1140px;
+    margin:0px auto;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+
+    display: flex;
+flex-direction: column;
+
+}
+
+
+.hero {
+width: 760px;
+height: 180px;
+margin:0 auto;
+margin-top: 50px;
+}
+
+.hero_title {
+width: 195.00999450683594px;
+height: 33px;
+font-family: Roboto;
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+color: #0E0E0E;
+margin-top: 50px;
+
+
+}
+
+.hero_title_list {
+    width: 760px;
+height: 159.9499969482422px;
+padding: 0px 0px 56.779998779296875px 0px;
+
+}
+.hero_list_item {
+    display: grid;
+    width: 760px;
+    height: 34.38999938964844px;
+    
+font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #0E0E0E;
+text-decoration:none;
+
+}
+
+.main_article {
+width: 760px;
+height: 832px;
+margin:0 auto;
+
+}
+.main_article_text {
+    width: 699.1199951171875px;
+    height: 61.779998779296875px;
+}
+.main_article_title {
+   
+    height: 33px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0E0E0E;    ;
+    margin-top: 50px;
+}
+
+.main_article_title_text {
+    width: 750.0599975585938px;
+height: 84.16999816894531px;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #0E0E0E;
+margin-top: 50px;
+
+}
+.main_article_list {
+    width: 760px;
+    height: 138px;
+ 
+    padding: 0px 0px 0px 0px;
+    
+
+}
+.main_article_list_item {
+font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #0E0E0E;
+display: grid;
+padding-top: 15px;
+}
+.vertical_body {
+    width: 1240px;
+    height: 280px;
+    margin: 0 auto;
+    
+}
+.vertical_row_four {
+    margin:50px 50px 50px 0;
+   display: flex;
+
+
+}
+
+.vertical_column {
+   width: 368px;
+   height: 244px;
+
+   padding: 32px;
+   border-radius: 8px;
+   
+
+   margin-right: 50px;
+   background: linear-gradient(0deg, rgba(0, 64, 119, 0.8) 0%, rgba(0, 64, 119, 0) 125.2%),
+linear-gradient(180deg, #FFFFFF 0%, rgba(252, 252, 252, 0) 100%);
+
+}
+
+.vertical_label {
+   width: 304px;
+height: 78px;
+top: 8px;
+padding: 0px 31.04998779296875px 1px 0px;
+
+   font-family: Roboto;
+   font-size: 22px;
+   font-weight: 700;
+   line-height: 26px;
+   letter-spacing: 0em;
+   text-align: left;
+   
+}
+
+.vertical_date {
+   width: 181.27999877929688px;
+   height: 16px;
+   top: 163px;
+   
+
+   font-family: Roboto;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 18px;
+   letter-spacing: 0em;
+   text-align: left;
+   
+   padding-top: 150px;
+
+}
+.main_footer {
+   max-width:1920px;
+}
+
+.vertical_title {
+   width: 214.6699981689453px;
+   height: 33px;
+   top: 47px;
+   left: 384px;
+   
+
+   font-family: Roboto;
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 36px;
+   letter-spacing: 0em;
+   text-align: left;
+   padding-bottom: 50px;
+   padding-top: 50px;
+}
+
+.read_more {
+  
+   width: 1140px;
+   height: 325px;
+
+font-family: Roboto;
+font-size: 15px;
+font-weight: 500;
+line-height: 24px;
+
+
+text-align: left;
+
+color: #0D0D0DB2;
+margin:150px 0px 0px 1500px;
+
+}
+
+.read_more_text{
+   text-decoration: none;
+}
+
+.title {
+
+    width: 452px;
+height: 34px;
+top: 1.2001953125px;
+padding: 0px 0px 1px 0px;
+border: 0px 0px 1px 0px;
+
+
+}
+
+.what{
+    display: flex;
+    width: 1140px;
+ 
+ 
+ 
+ }
+ 
+ .what{
+     
+  margin: 0 auto;
+ width: 1140px;
+ height: 325px;
+ padding-bottom: 100px;
+ 
+ 
+ }
+ .insql_image {
+     background-image: url(./assets/pngwing.png);
+     width: 244px;
+     height: 204px;
+     flex-shrink: 0;
+     background-repeat: no-repeat;
+   }
+ 
+ .what_row {
+     width: 760px;
+ height: 325.3599853515625px;
+ left: 380px;
+ padding-left: 50px;
+ 
+ }
+ .link_title {
+     width: 567.760009765625px;
+ height: 33px;
+ 
+     font-family: Roboto;
+ font-size: 15px;
+ font-weight: 600;
+ line-height: 36px;
+ letter-spacing: 0em;
+ text-align: left;
+ 
+ color: #0E0E0E;
+ border-bottom: 1px solid #0D0D0D66;
+ 
+ 
+ }
+ 
+ .about_sql {
+     width: 731.1699829101562px;
+ height: 17px;
+ top: 54px;
+ font-family: Roboto;
+ font-size: 15px;
+ font-weight: 400;
+ line-height: 22px;
+ letter-spacing: 0em;
+ text-align: left;
+ 
+ 
+ 
+ }
+ .action {
+     display: flex;
+ }
+ .one_month {
+    
+     width: 230px;
+     height: 117.97000122070312px;
+ 
+     
+ 
+     font-family: Roboto;
+     font-size: 18px;
+     font-weight: 600;
+     line-height: 25px;
+     letter-spacing: 0em;
+     text-align: left;
+     
+ }
+ 
+ .price {
+     width: 230px;
+     height: 117.97000122070312px;
+     left: 265px;
+    
+ padding-top: 6px;
+ font-family: Roboto;
+ font-size: 14px;
+ font-weight: 600;
+ line-height: 25px;
+ letter-spacing: 0em;
+ text-align: left;
+ padding-left: 30px;
+ color: #0E0E0E;
+ 
+ 
+ }
+ .price_number {
+     width: 21.790000915527344px;
+     height: 20px;
+     top: 34px;
+     
+ 
+     font-family: Roboto;
+     font-size: 14px;
+     font-weight: 600;
+     line-height: 25px;
+     letter-spacing: 0em;
+     text-align: left;
+     color: #0E0E0E;
+ 
+     
+ }
+ 
+ .action_time {
+  width: 173px;
+ height: 17px;
+ top: 3.420166015625px;
+ font-family: Roboto;
+ font-size: 15px;
+ font-weight: 400;
+ line-height: 22px;
+ letter-spacing: 0em;
+ text-align: left;
+ color: #0D0D0D99;
+ }
+ 
+ .button_free {
+ top: 208px; 
+ border-radius: 6px;
+ border: 1px;
+ gap: 6px;
+ background-color: #FFFFFF;
+ padding: 0px 15px 0px 15px ;
+ border: 1px solid #B6BCC3
+ }
+ 
+ .button_free_text {  
+ font-family: Roboto;
+ font-size: 14px;
+ font-weight: 600;
+ line-height: 0px;
+ letter-spacing: 0em;
+ text-align: center;
+  
+ color: #000000;
+ 
+ }
+ .one_month_text_days {
+ width: 230px;
+ height: 20px;
+ font-family: Roboto;
+ font-size: 18px;
+ font-weight: 600;
+ line-height: 25px;
+ letter-spacing: 0em;
+ text-align: left;
+ color: #0E0E0E;
+ 
+ }
+ 
+ .one_month_text {
+ width: 197.14999389648438px;
+ height: 17px;
+ top: 63.18994140625px;
+ font-family: Roboto;
+ font-size: 15px;
+ font-weight: 400;
+ line-height: 22px;
+ letter-spacing: 0em;
+ text-align: left;
+ color: #0D0D0DB2;
+ 
+ }
+ 
+ .action_time {
+ width: 173px;
+ height: 17px;
+ top: 3.420166015625px;
+ font-family: Roboto;
+ font-size: 15px;
+ font-weight: 400;
+ line-height: 22px;
+ letter-spacing: 0em;
+ text-align: left;
+ color: #0D0D0D99;
+ 
+ 
+ }
+ 
+ .title_sql {
+ width: 567.760009765625px;
+ height: 133px;
+ font-family: Roboto;
+ font-size: 30px;
+ font-weight: 600;
+ line-height: 36px;
+ letter-spacing: 0em;
+ text-align: left;
+ color: #0E0E0E;
+ text-decoration:underline ;
+ 
+ }
