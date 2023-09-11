@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import s from "./index.module.scss";
+import {Link} from 'react-router-dom'
+import s from './index.module.scss'
 
 //TODO:
 //const baseUrl = process.env.REACT_APP_HOST || "http://localhost:3000";
@@ -24,7 +24,7 @@ const MainPage = () => {
               <Link className={s.one_year_free_text}>
                 Получить 1 год бесплатно
               </Link>
-            </button>  
+            </button>
           </div>
         </div>
       </div>
@@ -33,7 +33,7 @@ const MainPage = () => {
           <div className={s.block}>
             <div className={s.block_title}> РЕСУРСЫ</div>
             <div className={s.blog_article_text}>
-              {" "}
+              {' '}
               Уменьшение потребности в IT услугах для бизнеса
             </div>
           </div>
@@ -269,11 +269,11 @@ const MainPage = () => {
                   src="../pages/img/iconGuard.svg"
                   alt="Защита"
                 >
-                  {" "}
+                  {' '}
                   <p className={s.garant_text}>
                     Мы гарантируем безопасность и сохранность ваших данных
                   </p>
-                </div>{" "}
+                </div>{' '}
               </figcaption>
             </figure>
           </div>
@@ -297,15 +297,15 @@ const MainPage = () => {
                 height="15.95px"
                 alt="Плюс"
               >
-                {" "}
+                {' '}
                 <p className={s.plus_text}> Как начать работать с in2sql?</p>
-              </div>{" "}
+              </div>{' '}
             </figcaption>
           </figure>
 
           <figure>
             <figcaption className={s.quests_content_text}>
-              {" "}
+              {' '}
               <div
                 className={s.plus}
                 src="../../../img/plus_icon-icons.svg"
@@ -313,18 +313,18 @@ const MainPage = () => {
                 height="15.95px"
                 alt="Плюс"
               >
-                {" "}
+                {' '}
                 <p className={s.plus_text}>
-                  {" "}
+                  {' '}
                   Нужны ли мне навыки программирования дла работы с in2sql?
                 </p>
-              </div>{" "}
+              </div>{' '}
             </figcaption>
           </figure>
 
           <figure>
             <figcaption className={s.quests_content_text}>
-              {" "}
+              {' '}
               <div
                 className={s.plus}
                 src="../../../img/plus_icon-icons.svg"
@@ -332,12 +332,12 @@ const MainPage = () => {
                 height="15.95px"
                 alt="Плюс"
               >
-                {" "}
+                {' '}
                 <p className={s.plus_text}>
-                  {" "}
-                  С чем можно интегрировать in2sql?{" "}
+                  {' '}
+                  С чем можно интегрировать in2sql?{' '}
                 </p>
-              </div>{" "}
+              </div>{' '}
             </figcaption>
           </figure>
         </div>
@@ -374,13 +374,13 @@ const MainPage = () => {
           </div>
 
           <button className={s.button_free}>
-            {" "}
+            {' '}
             <p className={s.button_free_text_try}>Попробовать бесплатно</p>
           </button>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default MainPage;
+export default MainPage
