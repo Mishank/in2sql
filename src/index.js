@@ -1,18 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter as Router } from "react-router-dom";
 
-import Routes from "./routes";
-import TopBar from "./components/topbar/topBar";
-import Footer from "./components/footer/footer";
+
+
+import Layout from "./components/layout";
 
 const App = () => {
   return (
-    <Router>
-      <TopBar />
-      <Routes />
-      <Footer />
-    </Router>
+ <Layout/>
   );
 };
 
