@@ -1,5 +1,5 @@
-import s from "./footer.module.scss";
-import { Link } from "react-router-dom";
+import s from './footer.module.scss'
+import {Link} from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -76,7 +76,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
