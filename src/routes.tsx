@@ -9,7 +9,7 @@ import Questionnaire from "./pages/questionnaire";
 const Routes = () => {
   return (
     <Switch>
-      <Route path="/" element={<MainPage />} exact />
+      <Route path="/" element={<MainPage />}  />
       <Route path="/listOfArticles" element={<ListOfArticles />} />
       <Route path="/article" element={<Article />} />
       <Route path="/contact" element={<Contact />} />

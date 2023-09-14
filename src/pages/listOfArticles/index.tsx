@@ -19,7 +19,7 @@ const ListOfArticles = () => {
                       01.12.2021{" "}
                       <Link
                         to="http://127.0.0.1:8080/pages/article"
-                        class="vertical_date_link"
+                        className={s.vertical_date_link}
                       >
                         ・Читать
                       </Link>{" "}
@@ -286,7 +286,7 @@ const ListOfArticles = () => {
           </div>
 
           <button
-            onclick="window.location.href ='http://127.0.0.1:8080/pages/questionnaire.html';"
+          
             className={s.button_free}
           >
             <p className={s.button_free_text}>Попробовать бесплатно</p>

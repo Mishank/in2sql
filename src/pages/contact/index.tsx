@@ -31,7 +31,7 @@ const Contact = () => {
               ИНН 3301032210
               <div>ОГРН 1143339000485</div>
             </p>
-            <div src="../pages/img/map.png" alt="" className={s.map_png}></div>
+            <div  className={s.map_png}></div>
           </div>
 
           <div className={s.questionnaire}>
@@ -66,7 +66,7 @@ const Contact = () => {
               </ul>
             </div>
             <div className={s.button_one_year}>
-              <button href="#" className={s.button_one_year_text}>
+              <button  className={s.button_one_year_text}>
                 Отправить
               </button>
             </div>
@@ -75,10 +75,7 @@ const Contact = () => {
                 <figure>
                   <figcaption>
                     <div
-                      src="../pages/img/iconGuard.svg"
-                      width="24px"
-                      height="24px"
-                      alt="Защита"
+             
                     >
                       <p className={s.garant}>
                         Мы гарантируем безопасность и сохранность ваших данных
@@ -99,10 +96,7 @@ const Contact = () => {
       </div>
       <div className={s.what}>
         <div
-          src="../../../img/pngwing.png"
-          width="244px"
-          height="204px"
-          alt="in2sql"
+          
           className={s.insql_image}
         ></div>
         <div className={s.what_row}>
