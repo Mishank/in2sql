@@ -2,7 +2,8 @@ import {Link} from 'react-router-dom'
 import s from './index.module.scss'
 
 //TODO:
-//const baseUrl = process.env.REACT_APP_HOST || "http://localhost:3000";
+//const baseUrl =  "http://localhost:3000";
+//if local 
 
 const MainPage = () => {
   return (
