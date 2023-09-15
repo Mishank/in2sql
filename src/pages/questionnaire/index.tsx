@@ -10,7 +10,7 @@ const Questionnaire = () => {
         <h1 className={s.hero_main_header_text}>Заполни анкету и получи 1 год лицензии</h1>
         <p className={s.hero_main_text}> Нам нужны эти данные для анализа и улучшения нашего продукта.</p>
       
-        <button onclick="window.location.href ='http://127.0.0.1:8080/pages/questionnaire.html';" className={s.one_year_free}><p className={s.one_year_free_text}>Получить 1 год бесплатно</p></button>
+        <button  className={s.one_year_free}><p className={s.one_year_free_text}>Получить 1 год бесплатно</p></button>
       </div>
       
         <img src="img/main.svg" width=" 475.34px" height="521.9px" alt="Разноцветные квадраты" className={s.insql_icon}></img>
@@ -29,7 +29,7 @@ const Questionnaire = () => {
   </ul>
   </div>
   <div className={s.button_one_year}>
-    <button onclick="window.location.href ='http://127.0.0.1:8080/pages/questionnaire.html';"className={s.button_one_year_text}>Получить 1 год бесплатно</button>
+    <button className={s.button_one_year_text}>Получить 1 год бесплатно</button>
   </div>
  
 

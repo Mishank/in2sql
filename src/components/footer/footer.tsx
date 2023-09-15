@@ -13,10 +13,8 @@ const Footer = () => {
                   <figcaption>
                     <div
                       className={s.footer_telegram_icons}
-                      src="../../../img/telegram-mini.svg"
-                      width="15px"
-                      height="15px"
-                      alt="телеграм"
+                      
+                    
                     ></div>
                     Москва
                   </figcaption>
@@ -31,12 +29,7 @@ const Footer = () => {
                 </div>
                 <div className={s.footer_telegram}>
                   <Link to="#">
-                    <div
-                      src="../../../img/icon_telegram.svg"
-                      width="24px"
-                      height="24px"
-                      alt="телеграм"
-                    ></div>
+                
                   </Link>
                 </div>
               </div>

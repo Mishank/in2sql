@@ -2,7 +2,8 @@ import {Link} from 'react-router-dom'
 import s from './index.module.scss'
 
 //TODO:
-//const baseUrl = process.env.REACT_APP_HOST || "http://localhost:3000";
+//const baseUrl =  "http://localhost:3000";
+//if local 
 
 const MainPage = () => {
   return (
@@ -21,7 +22,7 @@ const MainPage = () => {
             </div>
 
             <button className={s.one_year_free}>
-              <Link className={s.one_year_free_text}>
+              <Link to = "#" className={s.one_year_free_text}>
                 Получить 1 год бесплатно
               </Link>
             </button>
@@ -70,10 +71,7 @@ const MainPage = () => {
                   </p>
                 </div>
                 <div
-                  src="../../../img/first-img-about.svg"
-                  width="96px"
-                  height="100.25px"
-                  alt=""
+        
                   className={s.block_content_main_icon_one}
                 ></div>
               </div>
@@ -94,10 +92,7 @@ const MainPage = () => {
                     </p>
                   </div>
                   <div
-                    src="../../../img/three_img_about.svg"
-                    width="96px"
-                    height="84.86px"
-                    alt=""
+                 
                     className={s.block_content_main_icon_two}
                   ></div>
                 </div>
@@ -118,10 +113,7 @@ const MainPage = () => {
                   </p>
                 </div>
                 <div
-                  src="../../../img/web_statistics_page_icon.svg"
-                  width="96px"
-                  height="96px"
-                  alt=""
+             
                   className={s.block_content_main_icon_tree}
                 ></div>
               </div>
@@ -142,10 +134,7 @@ const MainPage = () => {
                   </p>
                 </div>
                 <div
-                  src="../../../img/settings_database_icon.svg"
-                  width="96px"
-                  height="96px"
-                  alt=""
+             
                   className={s.block_content_main_icon_four}
                 ></div>
               </div>
@@ -165,17 +154,11 @@ const MainPage = () => {
                 <figure>
                   <figcaption>
                     <div
-                      src="../pages/img/vector.png"
-                      width="116px"
-                      height="1px"
-                      alt=""
+                  
                     ></div>
                     <div
                       className={s.step_number_one}
-                      src="../pages/img/action-step-first.svg.svg"
-                      width="32px"
-                      height=" 32px"
-                      alt="Первый шаг"
+                 
                     ></div>
                     <b>
                       <div>Анкета</div>
@@ -188,17 +171,11 @@ const MainPage = () => {
                 <figure>
                   <figcaption>
                     <div
-                      src="../pages/img/vector.png"
-                      width="116px"
-                      height="1px"
-                      alt=""
+                
                     ></div>
                     <div
                       className={s.step_number_two}
-                      src="../pages/img/action-step-second.svg.svg"
-                      width="32px"
-                      height="32px"
-                      alt="Второй шаг"
+                 
                     ></div>
                     <b>Бесплатный доступ</b>
                   </figcaption>
@@ -209,17 +186,11 @@ const MainPage = () => {
                 <figure>
                   <figcaption>
                     <div
-                      src="../pages/img/vector.png"
-                      width="116px"
-                      height="1px"
-                      alt=""
+               
                     ></div>
                     <div
                       className={s.step_number_tree}
-                      src="../pages/img/action-step-third.svg.svg"
-                      width="32px"
-                      height="32px"
-                      alt="Третий шаг шаг"
+                    
                     ></div>
                     <b>
                       <div>Успешное пользование</div>
@@ -266,8 +237,7 @@ const MainPage = () => {
               <figcaption>
                 <div
                   className={s.guard_icon}
-                  src="../pages/img/iconGuard.svg"
-                  alt="Защита"
+            
                 >
                   {' '}
                   <p className={s.garant_text}>
@@ -292,10 +262,7 @@ const MainPage = () => {
             <figcaption className={s.quests_content_text}>
               <div
                 className={s.plus}
-                src="../../../img/plus_icon-icons.svg"
-                width="18px"
-                height="15.95px"
-                alt="Плюс"
+        
               >
                 {' '}
                 <p className={s.plus_text}> Как начать работать с in2sql?</p>
@@ -308,10 +275,7 @@ const MainPage = () => {
               {' '}
               <div
                 className={s.plus}
-                src="../../../img/plus_icon-icons.svg"
-                width="18px"
-                height="15.95px"
-                alt="Плюс"
+           
               >
                 {' '}
                 <p className={s.plus_text}>
@@ -327,10 +291,7 @@ const MainPage = () => {
               {' '}
               <div
                 className={s.plus}
-                src="../../../img/plus_icon-icons.svg"
-                width="18px"
-                height="15.95px"
-                alt="Плюс"
+          
               >
                 {' '}
                 <p className={s.plus_text}>
@@ -344,10 +305,7 @@ const MainPage = () => {
       </div>
       <div className={s.what}>
         <div
-          src="../../../img/pngwing.png"
-          width="244px"
-          height="204px"
-          alt="in2sql"
+        
           className={s.insql_image}
         ></div>
         <div className={s.what_row}>

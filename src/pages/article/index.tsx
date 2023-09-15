@@ -94,7 +94,7 @@ const Article = () => {
                       01.12.2021{" "}
                       <Link
                         to="http://127.0.0.1:8080/pages/article"
-                        class="vertical_date_link"
+                        className={s.vertical_date_link}
                       >
                         ・Читать
                       </Link>{" "}
@@ -147,10 +147,7 @@ const Article = () => {
             <p>
               Смотреть все{" "}
               <div
-                src="../pages/img/chevron-right-circle.svg.svg"
-                width=" 24px"
-                height=" 24px"
-                alt=""
+    
                 className={s.icon}
               ></div>
             </p>
@@ -160,10 +157,6 @@ const Article = () => {
 
       <div className={s.what}>
         <div
-          alt=""
-          src="img/in2sql.svg"
-          width="244px"
-          height="204px"
           className={s.insql_image}
         ></div>
         <div className={s.what_row}>
@@ -190,7 +183,7 @@ const Article = () => {
           </div>
 
           <button
-            onclick="window.location.href ='http://127.0.0.1:8080/pages/questionnaire.html';"
+     
             className={s.button_free}
           >
             <p className={s.button_free_text}>Попробовать бесплатно</p>

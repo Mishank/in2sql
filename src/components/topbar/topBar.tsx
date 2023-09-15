@@ -9,17 +9,7 @@ const TopBar = () => {
           <div className={s.content__container}>
             <nav className={s.main_nav}>
               <input type="checkbox" name="menu" id="btn-menu" />
-              <label for="btn-menu">
-                <div
-                 
-                  fetchpriority="high"
-                  width="54px"
-                  decoding="async"
-                  data-nigm="1"
-                  className={s.btn_menu_icon}
-                  src="./assets/icon-toggle-menu-button.svg"
-                ></div>
-              </label>
+       
 
               <ul>
                 <li>
