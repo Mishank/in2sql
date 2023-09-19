@@ -48,7 +48,7 @@ const MainPage = () => {
             <div className={s.block_title}>BI</div>
             <div className={s.blog_article_text}>Элементы self service BI</div>
           </div>
-          <div className={s.block}>
+          <div className={s.block_last}>
             <div className={s.block_title}>БЕЗОПАСНОСТЬ</div>
             <div className={s.blog_article_text}>Повышение прозрачности</div>
           </div>
