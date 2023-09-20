@@ -3,7 +3,7 @@ import s from './index.module.scss'
 
 //TODO:
 //const baseUrl =  "http://localhost:3000";
-//if local 
+
 
 const MainPage = () => {
   return (
